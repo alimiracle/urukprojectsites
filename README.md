@@ -5,7 +5,7 @@ This is the official repository of Uruk Porject and Uruk GNU/Linux websites.
 https://uruk.tuxfamily.org
 https://uruk.tuxfamily.org/dist/
 
-and it's fork from Peers 
+and it's based on Peers 
 https://notabug.org/vaeringjar/Peers
 
 # Uruk Project
