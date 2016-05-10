@@ -1,0 +1,32 @@
+// _fonts.scss: Fonts
+// ==================
+
+@font-face {
+  font-family: "Noto Serif";
+  font-weight: 500;
+  src: local("Noto Serif"),
+       url("/fonts/NotoSerif/NotoSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  src: local("Noto Serif Bold"),
+       url("/fonts/NotoSerif/NotoSerif-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Noto Serif Italic"),
+       url("/fonts/NotoSerif/NotoSerif-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Noto Serif Bold Italic"),
+       url("/fonts/NotoSerif/NotoSerif-BoldItalic.ttf");
+}
