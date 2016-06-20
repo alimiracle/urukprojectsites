@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+        <title>Uruk GNU/Linux</title>
+        <link rel="stylesheet" href="./modules/bootstrap/lib/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./modules/bootstrap/css/main.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./media/urukp.png">    
+    </head>
+
+    <body bgcolor="#CBF1FF">
+
+        <div id="top"></div>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#top"><img src="media/logo-e.png" alt="uruk gnu/linux"></a>
+                    
+                       
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+					           
+                    <ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+                        <li><a href="#about">Informazioni sul progetto</a></li>
+						<li><a href="#docker">Uruk Docker</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <!--<li><a href="./doc/en/index.html">Documentazione</a></li>-->
+                        <li><a href="#contact">Contattateci</a></li>
+                       <li><a href="#involved">Contribuire al progetto</a></li>
+                       <!--<li><a href="#donate">Fare una donazione</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <noscript class="navbar navbar-default container visible-xs">
+            <ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+				<li><a href="#docker">Uruk Docker</a></li>
+                <li><a href="#download">Download</a></li>
+                <!--<li><a href="./doc/en/index.html">Documentazione</a></li>-->
+                <li><a href="#contact">Contattateci</a></li>
+                <li><a href="#involved">Contribuire al progetto</a></li>
+                <!--<li><a href="#Donate">Fare una donazione</a></li>-->
+            </ul>
+        </noscript>
+<section class="row text-center" id="about">
+        <div class="container">
+
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>Benvenuti nella comunità di Uruk GNU/Linux !</strong></h1>
+                    <h4>
+                        <strong>Una distribuzione di GNU/Linux leggera, potente e facile da usare. 
+                        </strong>
+                    </h4>
+                    <p>Uruk GNU/Linux è una distribuzione del sistema operativo GNU con l'aggiunta del kernel Linux-libre. 
+                    <br> Uruk è un sistema operativo pensato per l'utente medio e per l'ufficio; i programmi possono essere ricercati ed installati agevolmente e in maniera molto semplice. 
+                    <br> Uruk è attualmente basato su Trisquel GNU/Linux.</p>
+                    <br>
+                    <br>Per dimostrare la corretta pronuncia della parola “uruk”, abbiamo incluso qui sotto un file audio:: 
+                    <br>
+                    <br><audio controls><source src="media/u-sound.ogg">
+                       Se leggete questo è perché il vostro browser non supporta l'elemento audio.
+                       </audio>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+            <div class="container">
+			<div class="row">
+                <div>
+                    <img src="media/desk.png" class="center-block" width="1000"/>
+					<br>
+                </div>
+            </div>
+
+            <div class="row text-center space-pad">
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>Libero al 100% !</h2>
+                        <li>I programmatori di Uruk sono impegnati nello sviluppo e nella distribuzione del software libero. Noi seguiamo diligentemente le <a href="http://www.gnu.org/distros/free-system-distribution-guidelines.html">linee direttive per la distribuzione del software libero</a>. Tali direttive di condotta estendono <a href="http://www.gnu.org/philosophy/free-sw.html">la definizione</a> del software libero per garantire agli utenti la libertà di usare, studiare, modificare e condividere ogni singola parte del nostro progetto, accompagnandolo con licenze libere. </li>
+                       
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>Pieno controllo</h2>
+                        <li>L'ambiente grafico predefinito di Uruk GNU/Linux è "Mate DE" integrato con Compiz.  Uruk offre agli utenti interfacce grafiche semplici e facili da usare. Il centro di controllo di Mate (Mate Control Center) vi permette di personalizzare l'aspetto del vostro sistema operativo secondo la vostra preferenza, e il gestore degli aggiornamenti (Update Manager) applica la stessa filosofia di semplicità d'uso agli aggiornamenti del software. </li>
+                        
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>Semplice</h2>
+                        <li>Di default Uruk GNU/Linux include una buona parte del software usato per i compiti più comuni. Uruk contiene software pensato per la produttività, la navigazione in internet, la messaggistica, la multimedialità, e molto altro. </li>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+           <div class="row text-center space-pad">
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>Installate i pacchetti RPM sul vostro sistema:</h2>
+                        <li>Non v'è bisogno di darvi un pizzicotto sulla guancia...
+						<br>non state sognando...
+						<br>Digitate semplicemente nel terminale:
+						<br><code>u-rpmi</code>  
+						<br>seguito dal nome del file che volete installare.
+						Ad esempio
+						<br><code>u-rpmi file.rpm</code> </li>
+                       
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>Installate i programmi dal loro codice sorgente:</h2>
+                        <li>con Uruk GNU/Linux la compilazione del software dal codice sorgente è una procedura molto semplice.
+						È sufficiente digitare nel terminale:
+						<br><code>u-src</code>   
+						<br>seguito dal nome del file che volete compilare.
+						Per esempio:
+						<br><code>u-src src.tar.gz</code> </li>
+                        
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>Usate i comandi di uno qualunque dei vari gestori di pacchetti</h2>
+                        <li>Uruk GNU/Linux include un simulatore dei gestori di pacchetti (Package Managers Simulator).  Questo programma può simulare i diversi comandi dei gestori di pacchetti più comuni.  Ciò significa che potete installare, disinstallare, aggiornare e rimuovere i pacchetti adoperando uno qualunque dei tanti gestori a disposizione. </li>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+		
+        </div>
+
+
+    </section>
+
+<section class="row text-center" id="docker">
+        <div class="container">
+                <div class="col-md-12 ">
+                   <div class="col-md-12 ">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>Uruk Docker</strong></h1>
+                    <p>Mettiamo a disposizione degli utenti una immagine docker di Uruk GNU/Linux.
+
+                     <br>Potete utilizzarla installando docker, e digitando quindi:
+                     <br><code>docker run alimiracle/urukos /bin/bash</code>            
+                </div>
+                </div>
+        </div>
+
+</section>
+
+<section class="row text-center" id="involved">
+        <div class="container">
+                <div class="col-md-12">
+                   <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>Contribuite al progetto</strong></h1>
+                     <h4><p>Ci sono molti modi per contribuire al nostro progetto. Alcuni di questi sono:
+                     <br>Semplicemente usando Uruk GNU/Linux e condividendolo con i vostri amici e familiari.
+Segnalandoci i problemi e i bug qualora vi imbattiate in uno di essi.
+Inviandoci suggerimenti atti a migliorare il sistema operativo.
+Aiutando gli utenti nel forum.
+Scrivendo e traducendo la documentazione e/o i programmi.
+Progettando.
+Se avete esperienza, potete sviluppare software per Uruk.</p>
+Come potete vedere, la gamma è estesa, e tutti possono contribuire in qualche maniera, ma se vi manca il tempo materiale potete comunque aiutarci divulgando Uruk GNU/Linux attraverso i social network, pubblicazioni di riviste e durante gli eventi di software libero.
+<br>Se volete far parte del team di sviluppo <a href="https://uruk.tuxfamily.org/en.html#contribute">leggete prima questo</a> first</p></h4>
+                </div>
+                </div>
+        </div>
+
+</section>
+<section class="row text-center" id="contact">
+        <div class="container">
+                <div class="col-md-12">
+                   <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>Contattateci</strong></h1>
+                    <ul class="contacts">
+                <h4><strong>Iscrivetevi alla nostra mailing list</strong>. Per iscrivervi alla lista mandate una mail a 
+<a href="uruk-request@lists.tuxfamily.org">uruk-request@lists.tuxfamily.org</a> â€”   inserendo per soggetto: "subscribe".
+Vi verrà quindi inviata una mail di conferma. Per annullare l'iscrizione seguite lo stesso procedimento, ma con il soggetto "unsubscribe". E siccome ci piace rompere le scatole ai nostri utenti fino in fondo, una conferma è di obbligo pure in questo caso.
+Per scrivere nella mailing list inviate il vostro messaggio a 
+<a href="uruk@lists.tuxfamily.org">uruk@lists.tuxfamily.org</a>
+				<br>
+                <br><strong>oppure chattate con noi</strong> su <code>irc.freenode.net</code> nel nostro canale <code>#uruk-project</code>
+				<br>
+                <br><strong>oppure </strong> contattate i responsabili del progetto via mail:</h4>
+				<br>
+                     <br>Ali Abdulghani(Ali Miracle) <a href="blade.vp2020@gmail.com">blade.vp2020@gmail.com</a></br>
+                     <br>Hayder Majid(Hayder Ctee) <a href="cteehayder@gmail.com">cteehayder@gmail.com</a></br>
+              
+                
+                  
+            </ul>
+                </div>
+                </div>
+        </div>
+
+</section>
+<section class="row text-center" id="download">
+        <div class="container">
+                <div class="col-md-8 col-md-offset-2">
+                   <div class="col-md-8 col-md-offset-2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>Scaricate subito Uruk GNU/Linux !</strong></h1>
+                    <h4>
+                        <strong>Potete scaricare l'immagine ISO di Uruk GNU/Linux immediatamente: </strong>
+                    </h4>
+                    <br><strong>32 bit,</strong> compatibile con una vasta gamma di PC, dal Pentium Pro in poi, PC a 64 bit inclusi.<a href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-i686.md5/download'>  "scaricate il file md5"</a>
+					<br>
+                    <br><a href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-i686.iso/download' class='button'>uruk_1.0 i686</a>
+                    <br>
+					<br>
+                    <br><strong>64 bit,</strong> se il vostro PC supporta questa architettura, il SO sarà più performante e agevolerà l'utilizzo di una maggiore quantità di memoria RAM.<a href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-64.md5/download'>  "scaricate il file md5"</a>
+					<br>
+                    <br><a href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-64.iso/download' class='button'>uruk_1.0 64</a>
+                </div>
+                </div>
+        </div>
+
+</section>
+
+        <div class="footer"><h6>&copy; 2016 Uruk GNU/Linux &bull; il codice della pagina web è distribuito con la licenza AGPLv3+ &bull; I dati mediatici del sito sono rilasciati con la licenza CC BY-SA 4.0</div>
+
+        <script src="./modules/bootstrap/lib/js/jquery.min.js"></script>
+        <script src="./modules/bootstrap/lib/js/jquery.smooth-scroll.min.js"></script>
+        <script src="./modules/bootstrap/lib/js/jquery.goup.min.js"></script>
+        <script src="./modules/bootstrap/lib/js/bootstrap.min.js"></script>
+        <script src="./modules/bootstrap/lib/js/fastclick.min.js"></script>
+        <script src="./modules/bootstrap/js/main.min.js"></script>
+
+    </body>
+</html>
