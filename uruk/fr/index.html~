@@ -34,7 +34,7 @@
                         <li><a href="#about">A Propos</a></li>
                         <li><a href="#projects">Projets</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                        <li><a href="https://blog.urukproject.org">Blog</a></li>
                        <li><a href="contribute.html">Participer</a></li>
                        <!--<li><a href="#donate">Donate</a></li>-->
                     </ul>
@@ -46,7 +46,7 @@
                 <li><a href="#about">A Propos</a></li>
                 <li><a href="#projects">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                <li><a href="https://blog.urukproject.org">Blog</a></li>
                 <li><a href="contribute.html">Comment Participer</a></li>
                 <!--<li><a href="#Donate">Donate</a></li>-->
             </ul>
@@ -62,7 +62,7 @@
             <h2><a id="about" name="about" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>A propos du Projet Uruk</h2>
             <p><strong>Le projet Uruk</strong>  est une communauté de personnes très motivés qui partagent un fort intérêt pour la culture libre et une société libre.Nous nous entraidons et partageons un objectif commun: celui de soutenir et créer des projets libres.Le projet uruk fournit une liste de projets que nos membres suivent et qui ont pour but de renforcer est de promouvoir la culture et la philosophie du logiciel libre (libre comme dans liberté!).
 
-           <br>Le nom d'Uruk a été choisi en l'honneur d'Uruk (warka)une ville en Irak <a target="_blank" href="https://fr.wikipedia.org/wiki/Uruk">(En Savoir Plus)</a>
+           <br>Le nom d'Uruk a été choisi en l'honneur d'Uruk (warka)une ville en Irak <a href="https://fr.wikipedia.org/wiki/Uruk">(En Savoir Plus)</a>
                <br>Pour démontrer comment le mot "uruk" devrait être prononcé, nous avons inclus un guide audio:
                <br>
                <br><audio controls><source src="../media/u-sound.ogg">
@@ -94,38 +94,38 @@
             
 
                     <tr>
-                        <td><a target="_blank" href="http://uruk.tuxfamily.org/dist">Uruk GNU/Linux</a></td>
+                        <td><a href="http://uruk.tuxfamily.org/dist">Uruk GNU/Linux</a></td>
                         <td> Uruk GNU / Linux est un système d'exploitation libre pour la maison,la famille, les petites entreprises et les centres éducatifs basés sur Trisquel.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner</a></td>
+                        <td><a href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner</a></td>
                         <td> Uruk Cleaner Uruk Cleaner est un programme pour nettoyer votre système de fichiers ainsi que  les journaux système.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/UPMS">UPMS</a></td>
+                        <td><a href="https://notabug.org/alimiracle/UPMS">UPMS</a></td>
                         <td> UPMS (Uruk Package Manager Simulator) est un simulateur de gestionnaire de paquets. Ce programme permet de simuler les commandes populaires d'un gestionnaire de paquets . Cela signifie que vous pouvez installer, désinstaller, mettre à jour et supprimer des paquets avec n’importe quel gestionnaire de paquets de votre choix.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Uruk Ocr Server</a></td>
+                        <td><a href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Uruk Ocr Server</a></td>
                         <td> Un petit  serveur web simple et puissant, OCR, son utilisation  est de convertir des Images en texte.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/irc-log-recorder">Irc log recorder</a></td>
+                        <td><a href="https://notabug.org/alimiracle/irc-log-recorder">Irc log recorder</a></td>
                         <td> L’enregisteur de journaux Irc est un  enregistreur de journaux irc , un bot de regarder tout ce qui se passe dans un canal irc et d’enregistrer  le journal . Irc log recorder possède un  serveur Web Pour permettre aux utilisateurs d'accéder aux journaux à partir d’un navigateur Web et telnet.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/hayderctee/masalla-icon-theme">Masalla Icon Theme</a></td>
+                        <td><a href="https://github.com/hayderctee/masalla-icon-theme">Masalla Icon Theme</a></td>
                         <td> Theme d’Icones Masalla thème d'icônes pour * NIX OS inspiré par la dernière tendance de design plat.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
+                        <td><a href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
                         <td> Le projet Devbox est libre comme dans Liberté , Multiplateforme, avec un environnement de développement intégré mais pas uniquement limité au logiciel open source OpenStack .Ce logiciel est fortement recommandé pour les instituts, les sociétés de développement de logiciels et les développeurs. Le projet est encore en version bêta.
                     </tr>
-                        <td><a target="_blank" href="https://notabug.org/hayderctee/urukprojectsites">Le Site web du projet Uruk</a></td>
-                        <td> Le Code source du projet , le site web et Uruk GNU/Linux est basé sur un Processus collaboratif pair à pair<a target="_blank" href='https://notabug.org/vaeringjar/Peers'> source code </a> </td>.
+                        <td><a href="https://notabug.org/hayderctee/urukprojectsites">Le Site web du projet Uruk</a></td>
+                        <td> Le Code source du projet , le site web et Uruk GNU/Linux est basé sur un Processus collaboratif pair à pair<a href='https://notabug.org/vaeringjar/Peers'> source code </a> </td>.
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
+                        <td><a href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
                         <td>Promouvoir et faciliter le chiffrement et déchiffrement des fichiers en utilsant AES.</td>
                     </tr>
 

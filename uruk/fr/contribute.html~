@@ -34,7 +34,7 @@
 						<li><a href="./index.html">Acceuil</a></li>
                         <li><a href="./index.html#about">A Propos</a></li>
                         <li><a href="./index.html#projects">Projets</a></li>
-                        <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                        <li><a href="https://blog.urukproject.org">Blog</a></li>
                         <li><a href="./index.html#contact">Contact</a></li>
                        <!--<li><a href="#donate">Donate</a></li>-->
                     </ul>
@@ -46,7 +46,7 @@
 				<li><a href="./index.html">Acceuil</a></li>
                 <li><a href="./index.html#about">A Propos</a></li>
                 <li><a href="./index.html#projects">Projets</a></li>
-                <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                <li><a href="https://blog.urukproject.org">Blog</a></li>
                 <li><a href="./index.html#contact">Contact</a></li>
                 <!--<li><a href="#Donate">Donate</a></li>-->
             </ul>
@@ -83,7 +83,7 @@ En raison de toutes les différentes tâches à accomplir, nous sommes confiant 
 De toute évidence, les réponses à ces questions permettront de déterminer les types d'emplois que vous seriez  tenter de  faire. Par exemple, si vous n’avez jamais écrit de la documentation, vous ne voudriez probablement pas essayer d'écrire un tutoriel STL C ++ ou de référence. Si vous avez peu d'expertise en mathématique alors vous ne voudrez probablement pas travailler sur un logiciel d'analyse statistique.
                    <br>
 
-                   <br><strong>Si vous trouvez problème ou un bug</strong> vous pouvez le rapporter à <a target="_blank" href="https://uruk.tuxfamily.org/bt/login_page.php">Uruk Issue Tracker</a></p>
+                   <br><strong>Si vous trouvez problème ou un bug</strong> vous pouvez le rapporter à <a href="https://uruk.tuxfamily.org/bt/login_page.php">Uruk Issue Tracker</a></p>
             </ul>
             <br>
             <br>

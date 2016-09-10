@@ -34,7 +34,7 @@
                         <li><a href="#about">حول</a></li>
                         <li><a href="#projects">المشاريع</a></li>
                         <li><a href="#contact">تواصل معنا</a></li>
-                        <li><a target="_blank" href="https://blog.urukproject.org">المدونة</a></li>
+                        <li><a href="https://blog.urukproject.org">المدونة</a></li>
                        <li><a href="contribute.html">ساهم</a></li>
                        <!--<li><a href="#donate">Donate</a></li>-->
                     </ul>
@@ -46,7 +46,7 @@
                 <li><a href="#about">حول</a></li>
                 <li><a href="#projects">المشاريع</a></li>
                 <li><a href="#contact">تواصل معنا</a></li>
-                <li><a target="_blank" href="https://blog.urukproject.org">المدونة</a></li>
+                <li><a href="https://blog.urukproject.org">المدونة</a></li>
                 <li><a href="contribute.html">ساهم</a></li>
                 <!--<li><a href="#Donate">Donate</a></li>-->
             </ul>
@@ -61,7 +61,7 @@
             <hr>
             <h2><a id="about" name="about" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>حول مشروع أوروك</h2>
             <p><strong>مشروع أوروك</strong>هو عبارة عن مجتمع  متكون من مجموعة من الاشخاص  المتحفزين الذين يتشاركون عدد من الافكار القوية عن المجتمع الحر و الثقافة الحرة , جميعنا نساعد بعضنا البعض و نتشارك الاسباب نفسها لدعم و بناء المشاريع الحرة , مشروع اوروك يقدم مجموعة من الاهداف التي يتبعها اعضاء المجتمع و التي تعمل على تعزيز و تقوية ثقافة و برامج البرمجيات الحرة
-               <br>تم اختيار اسم المشروع تيمناً بمدينة الوركاء العراقية <a target="_blank" href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%88%D8%B1%D9%83%D8%A7%D8%A1">(اقرأ المزيد)</a>
+               <br>تم اختيار اسم المشروع تيمناً بمدينة الوركاء العراقية <a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%88%D8%B1%D9%83%D8%A7%D8%A1">(اقرأ المزيد)</a>
                <br>و لمعرفة طريقة النطق الصحيحة للاسم , قمنا بأرفاق دليل صوتي للنطق الصحيح
                <br>
                <br><audio controls><source src="../media/u-sound.ogg">
@@ -93,39 +93,39 @@
             
 
                     <tr>
-                        <td><a target="_blank" href="http://urukproject.org/dist">أوروك جنو/لينكس</a></td>
+                        <td><a href="http://urukproject.org/dist">أوروك جنو/لينكس</a></td>
                         <td>توزيعة أوروك جنو/لينكس هي توزيعة حرة تماما للاستخدام المنزلي و المؤسسات الصغيرة و التعليمية بنيت على توزيعة تريسكل </td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner </a></td>
+                        <td><a href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner </a></td>
                         <td>برنامج يقوم بتنظيف نظامك من السجلات القديمة و ملفات الكاش</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/UPMS">محاكي أوروك لمدراء الحزمUPMS</a></td>
+                        <td><a href="https://notabug.org/alimiracle/UPMS">محاكي أوروك لمدراء الحزمUPMS</a></td>
                         <td>هذا البرنامج يستطيع محاكاة اوامر اشهر مدراء الحزم للتوزيعات الباقية , مما يعني انه بامكانك تثبيت الحزم باوامر اي مدير حزم ترغب به</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Uruk Ocr Server</a></td>
+                        <td><a href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Uruk Ocr Server</a></td>
                         <td>خدمة تحويل الصورة الى نص</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/irc-log-recorder">Irc log recorder</a></td>
+                        <td><a href="https://notabug.org/alimiracle/irc-log-recorder">Irc log recorder</a></td>
                         <td>برنامج يقوم بتسجيل جميع المحادثات في قنوات الدردشة irc و حفظها في سجل لمراجعتها فيما بعد</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/hayderctee/masalla-icon-theme">طقم ايقونات مسلة</a></td>
+                        <td><a href="https://github.com/hayderctee/masalla-icon-theme">طقم ايقونات مسلة</a></td>
                         <td>طقم ايقونات للانظمة الشبيهة بيونكس </td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
+                        <td><a href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
                         <td>بيئة تطوير متكاملة سحابية حرة تماما كما في تعريف البرمجيات الحرة , يوصى بها بشدة للمؤسسات و شركات تطوير البرمجيات و المطورين , لا يزال المشروع في مرحلة النسخة التجريبية</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/hayderctee/urukprojectsites">الكود المصدري لموقع مشروع اوروك</a></td>
-                        <td>الكود المصدري لموقعي مشروع اوروك و توزيعة اوروك جنو / لينكس , و المبني على <a target="_blank" href='https://notabug.org/vaeringjar/Peers'>الكود المصدري </a> لموقع Peers </td>
+                        <td><a href="https://notabug.org/hayderctee/urukprojectsites">الكود المصدري لموقع مشروع اوروك</a></td>
+                        <td>الكود المصدري لموقعي مشروع اوروك و توزيعة اوروك جنو / لينكس , و المبني على <a href='https://notabug.org/vaeringjar/Peers'>الكود المصدري </a> لموقع Peers </td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
+                        <td><a href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
                         <td>برنامج خفيف و بسيط جدا لتشفير و فك تشفير الملفات بواسطة ASE </td>
                     </tr>
 					

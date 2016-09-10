@@ -34,7 +34,7 @@
                         <li><a href="#about">Informazioni sul progetto</a></li>
                         <li><a href="#projects">Progetti</a></li>
                         <li><a href="#contact">Contattateci</a></li>
-                        <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                        <li><a href="https://blog.urukproject.org">Blog</a></li>
                        <li><a href="./contribute.html">Contribuire al progetto</a></li>
                        <!--<li><a href="#donate">Fare una donazione</a></li>-->
                     </ul>
@@ -46,7 +46,7 @@
                 <li><a href="#about">Informazioni sul progetto</a></li>
                 <li><a href="#projects">Progetti</a></li>
                 <li><a href="#contact">Contattateci</a></li>
-                <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                <li><a href="https://blog.urukproject.org">Blog</a></li>
                 <li><a href="./contribute.html">Contribuire al progetto</a></li>
                 <!--<li><a href="#Donate">Fare una donazione</a></li>-->
             </ul>
@@ -63,7 +63,7 @@
             <p><strong>Il progetto Uruk</strong> è formato da una comunità di persone altamente motivate che condividono un forte interesse nella cultura libera ed una società libera.
 Ognuno di noi vuole aiutare il prossimo, e noi tutti portiamo avanti uno scopo comune: sostenere e sviluppare progetti liberi.
 Il progetto Uruk fornisce una lista di obiettivi comuni il cui scopo è la promozione ed il rafforzamento del software libero e della cultura libera.
-               <br>Il nome Uruk è stato scelto in onore alla città irachena Uruk (Warka)<a target="_blank" href="https://it.wikipedia.org/wiki/Uruk">(Ulteriori Informazioni)</a>
+               <br>Il nome Uruk è stato scelto in onore alla città irachena Uruk (Warka)<a href="https://it.wikipedia.org/wiki/Uruk">(Ulteriori Informazioni)</a>
                <br>Per dimostrare la corretta pronuncia della parola “uruk”, abbiamo incluso qui sotto un file audio:
                <br>
                <br><audio controls><source src="../media/u-sound.ogg">
@@ -95,39 +95,39 @@ Il progetto Uruk fornisce una lista di obiettivi comuni il cui scopo è la promo
             
 
                     <tr>
-                        <td><a target="_blank" href="http://uruk.tuxfamily.org/dist">Uruk GNU/Linux</a></td>
+                        <td><a href="http://uruk.tuxfamily.org/dist">Uruk GNU/Linux</a></td>
                         <td>Uruk GNU/Linux è un sistema operativo completamente libero, basato su Trisquel  e pensato per l'uso domestico, piccole aziende e centri educativi.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner</a></td>
+                        <td><a href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner</a></td>
                         <td>Uruk Cleaner è un programma che potete utilizzare per pulire il vostro sistema dai file “cache” e dai log.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/UPMS">UPMS</a></td>
+                        <td><a href="https://notabug.org/alimiracle/UPMS">UPMS</a></td>
                         <td>UPMS(Uruk Package Managers Simulator). Questo programma può simulare i comandi di diversi gestori di pacchetti, il che significa che potete installare, disinstallare, aggiornare e rimuovere i pacchetti usando uno qualunque dei vari gestori di pacchetti secondo il bisogno  o la vostra particolare preferenza. </td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Server Ocr</a></td>
+                        <td><a href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Server Ocr</a></td>
                         <td>Un piccolo, semplice e potente web server usato per convertire immagini in testo.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/irc-log-recorder">Registratore dei log di Irc</a></td>
+                        <td><a href="https://notabug.org/alimiracle/irc-log-recorder">Registratore dei log di Irc</a></td>
                         <td>Il registratore dei log di Irc è un bot di Irc che archivia l'intera comunicazione di un canale. É dotato di un web server che permette agli utenti di accedere ai log da un browser e/o telnet .</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/hayderctee/masalla-icon-theme">Tema di Icone Masalla</a></td>
+                        <td><a href="https://github.com/hayderctee/masalla-icon-theme">Tema di Icone Masalla</a></td>
                         <td>Tema di icone per i sistemi operativi *NIX ispirato dalla moderna tendenza di design piatto.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
+                        <td><a href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
                         <td>Il progetto UrukCludIDE è un libero ambiente di programmazione integrato e inter-piattaforma eseguito principalmente, ma non esclusivamente, sul software cloud libero e open source «OpenStack». Questo software è altamente raccomandato per le istituzioni, le compagnie che sviluppano software e i programmatori. Il progetto è ancora in beta.</td>
                     </tr>
-                        <td><a target="_blank" href="https://notabug.org/hayderctee/urukprojectsites">Il sito web del progetto Uruk</a></td>
-                        <td>Il codice sorgente del progetto Uruk e del suo sito web, basato sul<a target="_blank" href='https://notabug.org/vaeringjar/Peers'> codice sorgente</a> di Peers. </td>
+                        <td><a href="https://notabug.org/hayderctee/urukprojectsites">Il sito web del progetto Uruk</a></td>
+                        <td>Il codice sorgente del progetto Uruk e del suo sito web, basato sul<a href='https://notabug.org/vaeringjar/Peers'> codice sorgente</a> di Peers. </td>
 
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
+                        <td><a href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
                         <td>Promuovere e facilitare la codificazione e la decodificazione dei file usando AES.</td>
                     </tr>
 

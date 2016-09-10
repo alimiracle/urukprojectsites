@@ -34,7 +34,7 @@
                         <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                        <li><a href="https://blog.urukproject.org">Blog</a></li>
                        <li><a href="contribute.html">Contribute</a></li>
                        <!--<li><a href="#donate">Donate</a></li>-->
                     </ul>
@@ -46,7 +46,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+                <li><a href="https://blog.urukproject.org">Blog</a></li>
                 <li><a href="contribute.html">How To Contribute</a></li>
                 <!--<li><a href="#Donate">Donate</a></li>-->
             </ul>
@@ -64,7 +64,7 @@
 We all help each other and share the common purpose of supporting and building free projects.
 The Uruk project provides a list of goals our members follow in order to promote and strengthen free (as in freedom!) software and culture. 
 
-               <br>The Uruk name was chosen in honor of Uruk (Warka) city in Iraq <a target="_blank" href="https://en.wikipedia.org/wiki/Uruk">(Read More)</a>
+               <br>The Uruk name was chosen in honor of Uruk (Warka) city in Iraq <a href="https://en.wikipedia.org/wiki/Uruk">(Read More)</a>
                <br>To indicate how the word "uruk" should be pronounced, we included an audio file:
                <br>
                <br><audio controls><source src="../media/u-sound.ogg">
@@ -96,38 +96,38 @@ The Uruk project provides a list of goals our members follow in order to promote
 
 
                     <tr>
-                        <td><a target="_blank" href="http://urukproject.org/dist">Uruk GNU/Linux</a></td>
+                        <td><a href="http://urukproject.org/dist">Uruk GNU/Linux</a></td>
                         <td>Uruk GNU/Linux is a fully free operating system for home users, small enterprises and educational centers based on Trisquel.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner</a></td>
+                        <td><a href="https://notabug.org/alimiracle/uruk-cleaner">Uruk Cleaner</a></td>
                         <td>Uruk Cleaner is a program that you can use to clean your system from cache files and logs.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/UPMS">UPMS</a></td>
+                        <td><a href="https://notabug.org/alimiracle/UPMS">UPMS</a></td>
                         <td>UPMS(Uruk Package Managers Simulator). This program can simulate several common package managers commands, which means you can install, uninstall, update and remove the packages using any package manager you prefer to get the work done with.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Uruk Ocr Server</a></td>
+                        <td><a href="https://notabug.org/alimiracle/Uruk-Ocr-Server">Uruk Ocr Server</a></td>
                         <td>A Simple, small, powerful OCR web server used to convert images to text.</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://notabug.org/alimiracle/irc-log-recorder">Irc log recorder</a></td>
+                        <td><a href="https://notabug.org/alimiracle/irc-log-recorder">Irc log recorder</a></td>
                         <td>The Irc log recorder is an irc bot that logs the entire communication of an irc channel. It is equipped with a web server to enable users to access the logs from a web browser and/or telnet .</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/hayderctee/masalla-icon-theme">Masalla Icon Theme</a></td>
+                        <td><a href="https://github.com/hayderctee/masalla-icon-theme">Masalla Icon Theme</a></td>
                         <td>Icon theme for *NIX OS inspired by the modern flat design trend. .</td>
                     </tr>
                     <tr>
-                        <td><a target="_blank" href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
+                        <td><a href="https://github.com/azzenovic/UrukCloudIDE">Uruk Cloud IDE</a></td>
                         <td>The UruCloudIDE Project is a free as in freedom cross platform integrated development environment running primarily, but not exclusively, on the free and open source cloud software. This piece of software is highly recommended for institutions, software development companies and developers. The project is still in beta.</td>
                     </tr>
-                        <td><a target="_blank" href="https://notabug.org/hayderctee/urukprojectsites">Uruk Project website</a></td>
-                        <td>The source code for the Uruk project and the Uruk GNU/Linux website, based on the Peers website<a target="_blank" href='https://notabug.org/vaeringjar/Peers'> source code </a> </td>
+                        <td><a href="https://notabug.org/hayderctee/urukprojectsites">Uruk Project website</a></td>
+                        <td>The source code for the Uruk project and the Uruk GNU/Linux website, based on the Peers website<a href='https://notabug.org/vaeringjar/Peers'> source code </a> </td>
                     </tr>
 </tr>
-                        <td><a target="_blank" href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
+                        <td><a href="https://sourceforge.net/projects/rosecrypt">Rose Crypt</a></td>
                         <td>Promote and facilitate encryption and decryption of files using AES</td>
                     </tr>
 

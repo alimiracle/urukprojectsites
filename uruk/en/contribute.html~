@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
-        <title>Projet Uruk</title>
+        <title>Uruk Project</title>
         <link rel="stylesheet" href="../modules/bootstrap/lib/css/bootstrap.min.css">
         <link rel="stylesheet" href="../modules/bootstrap/css/main.css">
         <link rel="shortcut icon" type="image/x-icon" href="../media/urukp.png">
-        
-        
+
+
     </head>
 
     <body bgcolor="#CBF1FF">
@@ -25,16 +25,16 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="../index.html"><img src="../media/logo-e.png" alt="uruk project"></a>
-                    
-                       
+
+
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
-					           
+
                     <ul class="nav navbar-nav navbar-right">
-						<li><a href="./index.html">Acceuil</a></li>
-                        <li><a href="./index.html#about">A Propos</a></li>
-                        <li><a href="./index.html#projects">Projets</a></li>
-                        <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+						<li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html#about">About</a></li>
+                        <li><a href="./index.html#projects">Projects</a></li>
+                        <li><a href="https://blog.urukproject.org">Blog</a></li>
                         <li><a href="./index.html#contact">Contact</a></li>
                        <!--<li><a href="#donate">Donate</a></li>-->
                     </ul>
@@ -43,10 +43,10 @@
         </nav>
         <noscript class="navbar navbar-default container visible-xs">
             <ul class="nav navbar-nav">
-				<li><a href="./index.html">Acceuil</a></li>
-                <li><a href="./index.html#about">A Propos</a></li>
-                <li><a href="./index.html#projects">Projets</a></li>
-                <li><a target="_blank" href="https://blog.urukproject.org">Blog</a></li>
+				<li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#about">About</a></li>
+                <li><a href="./index.html#projects">Projects</a></li>
+                <li><a href="https://blog.urukproject.org">Blog</a></li>
                 <li><a href="./index.html#contact">Contact</a></li>
                 <!--<li><a href="#Donate">Donate</a></li>-->
             </ul>
@@ -58,37 +58,34 @@
                     <img src="../media/top.svg" class="center-block website-banner" />
             </div>
 
-            
-            <h2><a id="contribute" name="contribute" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>Comment Participer</h2>
-            <p><strong>Si vous souhaitez participer, lisez ceci d'abord :</strong></p>
+
+            <h2><a id="contribute" name="contribute" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>How To Contribute</h2>
+            <p><strong>If you want to contribute, read this first:</strong></p>
             <ul>
-                <li><strong>Toutes nos contributions respectent la philosophie du logiciel libre .</strong></li>
-                <li><strong>En dépit de nos efforts un logiciel non-libre peut se glisser dans notre système.Nous serons vigilants, et nous supprimerons le logiciel non-libre lorsque nous le trouverons.</strong></li>
-
-                <li><strong>Nous demandons le respect entre les membres de la communauté.</strong></li>
-
-                <li><strong>Ne pas discriminer les personnes en fonction de l’ âge, le genre, le sexe,  l'orientation sexuelle, le handicap, la religion, l'idéologie, les idées, la classe sociale, la nationalité, la race, l’intelligence, ou tout autre motif analogue.</strong></li>
-
-                <li><strong>Exprimez vous de façon non grossière (c.a.d. en évitant de jurer). Les normes sociales diffèrent d'un lieu à l'autre .Un langage grossier pourrait décourager les personnes de s'intégrer à notre communauté et de s'y impliquer.</strong></li>
-
-                <li><strong>N’insultez pas les autres içi.Nous encourageons la discussion et les thèmes de discussion. Nous pouvons être en désaccord avec l'autre tout en respectant l'expression de ses idées.</strong></li>
+                <li><strong>All of our contributions respect software freedom.</strong></li>
+                <li><strong>Non-free software may slip into our system, despite all of our efforts. We will be vigilant, and we will remove non-free software as soon as we find it</strong></li>
+                <li><strong>We demand there to be respect among community members.</strong></li>
+                <li><strong>Do not discriminate against people based on age, gender, sex, sexual orientation, disability, religion, ideology, ideas, social class, nationality, race, intelligence, or any analogous grounds.</strong></li>
+                <li><strong>Do not curse or use harsh language here. Social norms differ from place to place; harsh language can deter people from our community.</strong></li>
+                <li><strong>Do not insult others here. Disagree and challenge ideas instead.</strong></li>
                 <br>
-                <p><strong>Si vous êtes d'accord avec les points ci-dessus </strong>,et vous souhaitez nous aider, alors la question suivante est: que voulez-vous faire?
-                <br>Vous pouvez aider projet Uruk à bien des égards; nous avons besoin de gens pour écrire des documents tels que des livres, des guides de référence et d'information en ligne, nous avons aussi besoin de gens pour écrire des logiciels, faire de la recherche, et de nombreuses autres tâches.
-                  
-En raison de toutes les différentes tâches à accomplir, nous sommes confiant que avez une compétence particulière qui pourrait aider le Projet Uruk; nul besoin d’être un développeur de logiciels expérimenté pour nous aider.
-
-                   Quelles sont vos compétences et quelle expérience avez-vous? Avez-vous une expérience d'écriture de long documents complexes        et techniques ? Parlez-vous plusieurs langues ? Avez-vous une compétence unique? Avez-vous été un hacker Unix ou êtes-vous en train d'apprendre? 
-
-De toute évidence, les réponses à ces questions permettront de déterminer les types d'emplois que vous seriez  tenter de  faire. Par exemple, si vous n’avez jamais écrit de la documentation, vous ne voudriez probablement pas essayer d'écrire un tutoriel STL C ++ ou de référence. Si vous avez peu d'expertise en mathématique alors vous ne voudrez probablement pas travailler sur un logiciel d'analyse statistique.
+                <p><strong>If you have read and agreed on the above points </strong>, and would like to help us, then the next question is: what would you like to do?
+                <br>You can help the Uruk project in many ways;
+                   we need people to write documentation, such as books, reference guides and online info; we also need people to write software, do research, and many other tasks.
+                   Because of all the different tasks at hand, we are confident that your particular skills can help the Uruk Project; you don't have to be an experienced software
+                   developer to help us. What skills and experience do you have? Do you have experience writing large and complex technical documents? Do you speak several
+                   human languages? Do you have a unique skill? Are you a Unix hacker, or are you still learning? Obviously, the answers to these questions
+                   will determine the sorts of jobs that you may want to attempt to do. For example, if you've never written any documentation then you probably don't want
+                   to attempt to write a C++ STL tutorial or reference. If you have little mathematical expertise then you probably won't want to work on a statistical analysis
+                   package.
                    <br>
 
-                   <br><strong>Si vous trouvez problème ou un bug</strong> vous pouvez le rapporter à <a target="_blank" href="https://uruk.tuxfamily.org/bt/login_page.php">Uruk Issue Tracker</a></p>
+                   <br><strong>If you find any issue,</strong>you can report it on the <a href="https://uruk.tuxfamily.org/bt/login_page.php">Uruk Issue Tracker</a></p>
             </ul>
             <br>
             <br>
             <hr size=9>
-            <p><h2>Membres du projet:</h2></p>
+            <p><h2>Project Members :</h2></p>
             <hr>
             <table class="table">
 				<tbody>
@@ -120,54 +117,54 @@ De toute évidence, les réponses à ces questions permettront de déterminer le
             <br>
             <br>
             <br>
-            <p><h2>Contributeurs :</h2></p>
+            <p><h2>Contributors:</h2></p>
                         <table class="table">
 				<tbody>
 				<tr>
 					<td>Tristan aka MangyDwg</td>
-					<td>Traducteur en Français pour le site web et le diaporama installateur d'Uruk GNU/Linux .</td>
+					<td>French translation of the websites and the Uruk GNU/Linux installer slideshows. </td>
 					<td><code><font color ="2c3e50">pinmaritim@riseup.net</font></code></td>
 				</tr>
 				<tr>
 					<td>SuperTramp83 (as a trisquel fourm nickname)</td>
-					<td>Traducteur en Italien pour le site web et  le diaporama installateur d'Uruk GNU/Linux ainsi que les corrections en Anglais.</td>
+					<td>Italian translation of the websites, the Uruk GNU/Linux installer slideshows and the English texts corrections. </td>
 					<td><code><font color ="2c3e50">greatgnu@riseup.net</font></code></td>
 				</tr>
 				<tr>
 					<td>Fouad Mahmmed</td>
-					<td>Publication du projet ainsi que des contenus en ligne, articles et des tutoriels complet sur la distribution GNU/Linux Uruk.</td>
+					<td>Publishing the project and making complete previews and lessons about the Uruk GNU Linux distribution.</td>
 					<td><code><font color ="2c3e50">2linuxorg@gmail.com</font></code></td>
 				</tr>
 				<tr>
 					<td>Al-Hassan Al-Maghribi</td>
-					<td>Publication du projet dans la société Arabe ainsi que sur les réseaux sociaux.</td>
+					<td>Publishing the project in Arab societies and through social media networks. </td>
 					<td><code><font color ="2c3e50">aboulharret@gmail.com</font></code></td>
 				</tr>
 				<tr>
 					<td>Raddah Alzahrani</td>
-					<td>Le don et l'achat de l'espace d'hébergement ainsi que le domaine pour le projet.</td>
+					<td>Donating and buying the hosting space and domain for the project. 	</td>
 					<td><code><font color ="2c3e50">aosus@aosus.org</font></code></td>
 				</tr>
 				<tr>
 					<td>Mustafa M. Wahhudi</td>
-					<td>Publication du projet dans la société Arabe ainsi que sur les réseaux sociaux.</td>
+					<td>Publishing the project in Arab societies and through social media networks.</td>
 					<td><code><font color ="2c3e50">mustafa.wahhudi@gmail.com</font></code></td>
 				</tr>
         <tr>
 					<td>Michael Tiebesl</td>
-					<td>Publication du thème masala pour les icônes ainsi que leur rajout aux dépôts AUR de la distribution Arch GNU/Linux.</td>
+					<td>Publishing the Masalla icon theme and adding it to the AUR repository of the Arch GNU/Linux distribution. </td>
 					<td><code><font color ="2c3e50">meinalmere@gmail.com</font></code></td>
 				</tr>
  <tr>
 					<td>Dina Rushdi</td>
-					<td>Création du fichier audio et Phonogram pour le nom du projet</td>
+					<td>Making the audio file and the phonogram to indicate the correct pronunciation of the name “Uruk”.</td>
 					<td><code><font color ="2c3e50">dinarushdi@yahoo.com</font></code></td>
 				</tr>
 				</tbody>
             </table>
 
             <hr />
-            
+
             <!--<h2><a id="donate" name="donate" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>Donate</h2>
             <p>We don't have a visa card yet :)).</p>-->
         </div>
@@ -183,4 +180,3 @@ De toute évidence, les réponses à ces questions permettront de déterminer le
 
     </body>
 </html>
-<html><head></head><body></body></html>
