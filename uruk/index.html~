@@ -60,11 +60,11 @@
 
          
 
-        <h1><div class="footer">مرحبا , قم باختيار اللغة الخاصة بك من الشريط العلوي
-        <br>Hi, Choose your language from the top bar
-        <br>Ciao, scegliere la lingua nel menù superiore
-        <br>Bienvenue,choisissez votre langue en haut
-        <br>Hola, escoge tu idioma arriba</div></h1>
+        <h1><div class="footer">مرحبا , قم باختيار اللغة الخاصة بك من الاعلى
+        <br>Hi, Choose your language from top
+        <br>Ciao, scegliere la lingua da cima
+        <br>Hola, escoge tu idioma arriba
+        <br>Bienvenue,choisissez votre langue en haut</div></h1>
 
         <script src="./modules/bootstrap/lib/js/jquery.min.js"></script>
         <script src="./modules/bootstrap/lib/js/jquery.smooth-scroll.min.js"></script>

@@ -3,12 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
-        <title>Uruk project</title>
+        <title>Uruk GNU/Linux</title>
         <link rel="stylesheet" href="./modules/bootstrap/lib/css/bootstrap.min.css">
         <link rel="stylesheet" href="./modules/bootstrap/css/main.css">
-        <link rel="shortcut icon" type="image/x-icon" href="./media/urukp.png">
-        
-        
+        <link rel="shortcut icon" type="image/x-icon" href="./media/urukp.png">       
     </head>
 
     <body bgcolor="#CBF1FF">
@@ -24,29 +22,29 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#top"><img src="media/logo-1.png" alt="uruk project"></a>
+                    <a class="navbar-brand" href="#top"><img src="media/logo-1.png" alt="uruk gnu/linux"></a>
                     
                        
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
 					           
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="ar/index.html">العربية</a></li>
-                        <li><a href="en/index.html">English</a></li>
-                        <li><a href="it/index.html">Italiano</a></li>
-                        <li><a href="es/index.html">Español</a></li>
-                		<li><a href="fr/index.html">Français</a></li>
+                        <li><a href="ar.html">العربية</a></li>
+                        <li><a href="en.html">English</a></li>
+                        <li><a href="it.html">Italiano</a></li>
+                        <li><a href="es.html">Español</a></li>
+                        <li><a href="fr.html">Français</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <noscript class="navbar navbar-default container visible-xs">
             <ul class="nav navbar-nav">
-                <li><a href="ar/index.html">العربية</a></li>
-                <li><a href="en/index.html">English</a></li>
-                <li><a href="it/index.html">Italiano</a></li>
-                <li><a href="es/index.html">Español</a></li>
-                <li><a href="fr/index.html">Français</a></li>
+                <li><a href="ar.html">العربية</a></li>
+                <li><a href="en.html">English</a></li>
+                <li><a href="it.html">Italiano</a></li>
+                <li><a href="es.html">Español</a></li>
+                <li><a href="fr.html">Français</a></li>
             </ul>
         </noscript>
 
@@ -60,11 +58,11 @@
 
          
 
-        <h1><div class="footer">مرحبا , قم باختيار اللغة الخاصة بك من الشريط العلوي
-        <br>Hi, Choose your language from the top bar
-        <br>Ciao, scegliere la lingua nel menù superiore
-        <br>Bienvenue,choisissez votre langue en haut
-        <br>Hola, escoge tu idioma arriba</div></h1>
+        <h1><div class="footer">مرحبا , قم باختيار اللغة الخاصة بك من الاعلى
+        <br>Hi, Choose your language from top
+        <br>Ciao, scegliere la lingua da cima
+        <br>Hola, escoge tu idioma arriba
+        <br>Bienvenue,choisissez votre langue en haut</div></h1>
 
         <script src="./modules/bootstrap/lib/js/jquery.min.js"></script>
         <script src="./modules/bootstrap/lib/js/jquery.smooth-scroll.min.js"></script>
