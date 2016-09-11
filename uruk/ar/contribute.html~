@@ -34,7 +34,7 @@
 						<li><a href="./index.html">الرئيسية</a></li>
                         <li><a href="./index.html#about">حول</a></li>
                         <li><a href="./index.html#projects">المشاريع</a></li>
-                        <li><a href="https://blog.urukproject.org">المدونة</a></li>
+                        <li><a target="_blank" href="https://blog.urukproject.org">المدونة</a></li>
                         <li><a href="./index.html#contact">تواصل معنا</a></li>
                        <!--<li><a href="#donate">Donate</a></li>-->
                     </ul>
@@ -46,7 +46,7 @@
 				<li><a href="./index.html">الرئيسية</a></li>
                 <li><a href="./index.html#about">حول</a></li>
                 <li><a href="./index.html#projects">المشاريع</a></li>
-                <li><a href="https://blog.urukproject.org">المدونة</a></li>
+                <li><a target="_blank" href="https://blog.urukproject.org">المدونة</a></li>
                 <li><a href="./index.html#contact">تواصل معنا</a></li>
                 <!--<li><a href="#Donate">Donate</a></li>-->
             </ul>
@@ -75,7 +75,7 @@
 بسبب تعدد المهام المختلفة ، نحن متأكدون من أن لديك المهارات التي يمكن أن تساعدنا في مشروع أوروك. لست بحاجة الى خبرة برمجية لمساعدتنا ,
 ما هي المهارات والخبرات التي لديك؟ هل لديك تجربة كتابة وثائق كبيرة ومعقدة؟ هل تجيد اكثرمن لغة؟ هل لديك مهارة فريدة من نوعها ؟ ان الاجابة على هذه الاسئلة هي التي ستحدد نوع المساعدة التي ستقدمها للمشروع .
                 <br>
-                <br><strong>أذا وجدت أي علة او خلل </strong>بامكانك الابلاغ عنها عن طريق <a href="https://uruk.tuxfamily.org/bt/login_page.php">Uruk Issue Tracker</a></p>
+                <br><strong>أذا وجدت أي علة او خلل </strong>بامكانك الابلاغ عنها عن طريق <a target="_blank" href="https://uruk.tuxfamily.org/bt/login_page.php">Uruk Issue Tracker</a></p>
             </ul>
             <br>
             <br>
