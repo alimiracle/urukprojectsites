@@ -82,7 +82,7 @@ a {
 .navbar-brand,
 .navbar a {
   transition: .2s ease-in .2s;
-  color: #290522 !important; }
+  color: #3498db !important; }
 
 .navbar a:hover,
 .navbar a:focus {
@@ -137,7 +137,7 @@ img {
 }
 p {
   padding-bottom: 20px;
-  color: #37C871;
+  color: #2c3e50;
 }
 img[src="media/logo-1.png"], img[src="media/logo-a.png"], img[src="media/logo-e.png"] {
   transition: .2s ease-in .2s;
