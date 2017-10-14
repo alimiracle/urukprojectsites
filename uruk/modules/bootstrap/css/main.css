@@ -109,8 +109,34 @@ div.logo {
 .footer {
   color: #777;
   font-size: 1.1em;
-  margin-top: 2em;
-  padding: 2em 0;
-  text-align: center; }
-
+  margin-top: 15px;
+  padding: 10px 0;
+  text-align: center;
+} 
+img[src="media/logo-1.png"], img[src="../media/logo-a.png"] {
+  transition: .2s ease-in .2s;
+}
+img[src="media/logo-1.png"]:hover, img[src="../media/logo-a.png"]:hover {
+  transition: .2s ease-in .2s;
+  padding-left: 10px;
+}
+.goup-container {
+  background-color: #5594BF !important;
+}
+.goup-container:hover {
+  transition: .2s ease-in .2s;
+  background-color: #37C871 !important;
+}
+a {
+  transition: .17s ease-in .17s !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #3BC17C;
+  transition: .17s ease-in .17s !important;
+}
+p {
+  padding-bottom: 20px;
+  color: #37C871;
+}
 /*# sourceMappingURL=main.css.map */
