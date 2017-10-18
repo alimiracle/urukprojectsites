@@ -135,8 +135,8 @@ a:hover {
   color: #3BC17C;
   transition: .17s ease-in .17s !important;
 }
-p {
+.footer p {
   padding-bottom: 20px;
-  color: #37C871;
+  color: #2c3e50;
 }
 /*# sourceMappingURL=main.css.map */
