@@ -139,4 +139,11 @@ a:hover {
   color: #3BC17C;
   transition: .17s ease-in .17s !important;
 }
+<<<<<<< HEAD:static/bootstrap/css/main.css
+=======
+.footer p {
+  padding-bottom: 20px;
+  color: #2c3e50;
+}
+>>>>>>> 29b194029b7fadd4c4761f498000f7f63176bd61:uruk/modules/bootstrap/css/main.css
 /*# sourceMappingURL=main.css.map */
