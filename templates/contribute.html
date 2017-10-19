@@ -1,0 +1,205 @@
+{% block head %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <title>{{ gettext('Uruk Project') }}</title>
+    <link rel="stylesheet" href="../static/bootstrap/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/images/urukp.png">
+</head>
+{% endblock %}
+
+{% block content %}
+{% if current_lang == 'ar' %}
+    <body dir="rtl" bgcolor="#CBF1FF">
+{% else %}
+	<body dir="ltr" bgcolor="#CBF1FF">    	
+{% endif %}
+    <div id="top"></div>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img src="../static/images/logo-e.png" alt="uruk project"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+						<li><a href="/">{{ gettext('Home') }}</a></li>
+                        <li><a href="/#about">{{ gettext('About') }}</a></li>
+                        <li><a href="/contribute#projects">{{ gettext('Projects') }}</a></li>
+                        <li><a target="_blank" href="https://blog.urukproject.org">{{ gettext('Blog') }}</a></li>
+                        <li><a href="/#contact">{{ gettext('Contact') }}</a></li>
+                       <!--<li><a href="#donate">Donate</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <noscript class="navbar navbar-default container visible-xs">
+            <ul class="nav navbar-nav">
+				<li><a href="/">{{ gettext('Home') }}</a></li>
+                <li><a href="/#about">{{ gettext('About') }}</a></li>
+                <li><a href="/contribute#projects">{{ gettext('Projects') }}</a></li>
+                <li><a target="_blank" href="https://blog.urukproject.org">{{ gettext('Blog') }}</a></li>
+                <li><a href="/#contact">{{ gettext('Contact') }}</a></li>
+                <!--<li><a href="#Donate">Donate</a></li>-->
+            </ul>
+        </noscript>
+        <div class="container">
+			<div class="row">
+                    <img src="../static/images/top.svg" class="center-block website-banner" />
+            </div>
+            <h2><a id="contribute" name="contribute" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>{{ gettext('How To Contribute') }}</h2>
+            <p><strong>{{ gettext('If you want to contribute, read this first:') }}</strong></p>
+            <ul>
+                <li><strong>{{ gettext('All of our contributions respect software freedom.') }}</strong></li>
+                <li><strong>{{ gettext('Non-free software may slip into our system, despite all of our efforts. We will be vigilant, and we will remove non-free software as soon as we find it') }}</strong></li>
+                <li><strong>{{ gettext('We demand there to be respect among community members.') }}</strong></li>
+                <li><strong>{{ gettext('Do not discriminate against people based on age, gender, sex, sexual orientation, disability, religion, ideology, ideas, social class, nationality, race, intelligence, or any analogous grounds.') }}</strong></li>
+                <li><strong>{{ gettext('Do not curse or use harsh language here. Social norms differ from place to place; harsh language can deter people from our community.') }}</strong></li>
+                <li><strong>{{ gettext('Do not insult others here. Disagree and challenge ideas instead.') }}</strong></li>
+                <br>
+                <p><strong>{{ gettext('If you have read and agreed on the above points') }} </strong>{{ gettext(', and would like to help us, then the next question is: what would you like to do?') }}
+                <br>{{ gettext("You can help the Uruk project in many ways;
+                   we need people to write documentation, such as books, reference guides and online info; we also need people to write software, do research, and many other tasks.
+                   Because of all the different tasks at hand, we are confident that your particular skills can help the Uruk Project; you don't have to be an experienced software
+                   developer to help us. What skills and experience do you have? Do you have experience writing large and complex technical documents? Do you speak several
+                   human languages? Do you have a unique skill? Are you a Unix hacker, or are you still learning? Obviously, the answers to these questions
+                   will determine the sorts of jobs that you may want to attempt to do. For example, if you've never written any documentation then you probably don't want
+                   to attempt to write a C++ STL tutorial or reference. If you have little mathematical expertise then you probably won't want to work on a statistical analysis
+                   package.") }}
+                   <br>
+
+                   <br><strong>{{ gettext('If you find any issue,') }}</strong>{{ gettext('you can report it on the') }} <a target="_blank" href="https://uruk.tuxfamily.org/bt/login_page.php">{{ gettext('Uruk Issue Tracker') }}</a></p>
+            </ul>
+            <br>
+            <br>
+            <hr size=9>
+            <p><h2 id='projects'>{{ gettext('Project Members :') }}</h2></p>
+            <hr>
+            <table class="table">
+				<tbody>
+				<tr>
+					<td>{{ gettext('Ali Abdul Ghani') }} </td>
+					<td><code><font color ="2c3e50">{{ gettext('alimiracle@riseup.net') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Hayder Majid') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('hayder@riseup.net') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Azzen Abidi') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('azzen.abidi@gmail.com') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Rosa') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('rosa33@openmailbox.org') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Zakaria Mekki Belbali') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('zakibelbali12@gmail.com') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('kzimmermann') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('kzimmermann@vivaldi.net') }}</font></code></td>
+				</tr>
+				<tr>
+						<td>{{ gettext('Ahmad Nourallah') }}</td>
+						<td><code><font color ="2c3e50">{{ gettext('ahmadnurallah@gmail.com') }}</font></code></td>
+				</tr>	
+				</tbody>
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p><h2>{{ gettext('Contributors:') }}</h2></p>
+                        <table class="table">
+				<tbody>
+				<tr>
+					<td>{{ gettext('Tristan aka MangyDwg') }}</td>
+					<td>{{ gettext('French translation of the websites and the Uruk GNU/Linux installer slideshows.') }} </td>
+					<td><code><font color ="2c3e50">{{ gettext('pinmaritim@riseup.net') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('SuperTramp83 (as a trisquel forum nickname') }})</td>
+					<td>{{ gettext('Italian translation of the websites, the Uruk GNU/Linux installer slideshows and the English texts corrections.') }} </td>
+					<td><code><font color ="2c3e50">{{ gettext('greatgnu@riseup.net') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Fouad Mahmmed') }}</td>
+					<td>{{ gettext('Publishing the project and making complete previews and lessons about the Uruk GNU Linux distribution.') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('2linuxorg@gmail.com') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Al-Hassan Al-Maghribi') }}</td>
+					<td>{{ gettext('Publishing the project in Arab societies and through social media networks.') }} </td>
+					<td><code><font color ="2c3e50">{{ gettext('aboulharret@gmail.com') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Raddah Alzahrani') }}</td>
+					<td>{{ gettext('Donating and buying the hosting space and domain for the project.') }} 	</td>
+					<td><code><font color ="2c3e50">{{ gettext('aosus@aosus.org') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Mustafa M. Wahhudi') }}</td>
+					<td>{{ gettext('Publishing the project in Arab societies and through social media networks.') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('mustafa.wahhudi@gmail.com') }}</font></code></td>
+				</tr>
+        <tr>
+					<td>{{ gettext('Michael Tiebesl') }}</td>
+					<td>{{ gettext('Publishing the Masalla icon theme and adding it to the AUR repository of the Arch GNU/Linux distribution.') }} </td>
+					<td><code><font color ="2c3e50">{{ gettext('meinalmere@gmail.com') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Dina Rushdi') }}</td>
+					<td>{{ gettext('Making the audio file and the phonogram to indicate the correct pronunciation of the name “Uruk”.') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('dinarushdi@yahoo.com') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('David Pizarro') }} </td>
+					<td>{{ gettext('Spanish translation of the websites and the Uruk GNU/Linux installer slideshows.') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('megver83@parabola.nu') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Mappack') }}</td>
+					<td>{{ gettext('Dutch translation for the websites.') }} </td>
+					<td><code><font color ="2c3e50">{{ gettext('mappack@null.net') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Dr. Osama Ali Awad') }}</td>
+					<td>{{ gettext('contributed to make first free software and Uruk project event in Iraq.') }}</td>
+					<td><code><font color ="2c3e50">‫{{ gettext('‪usamawad@gmail.com') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Hamed Mohammed Sahib') }}</td>
+					<td>{{ gettext('contributed to make first free software and Uruk project event in Iraq.') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('‫‪hamadaaltai@gmail.com‬‬') }}</font></code></td>
+				</tr>
+				<tr>
+					<td>{{ gettext('Jafar Saeed Abdullah') }}</td>
+					<td>{{ gettext('contributed to make first free software and Uruk project event in Iraq.') }}</td>
+					<td><code><font color ="2c3e50">{{ gettext('‫‪gaaffer88@gmail.com‬‬') }}</font></code></td>
+				</tr>
+				</tbody>
+            </table>
+
+            <hr />
+
+            <!--<h2><a id="donate" name="donate" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>Donate</h2>
+            <p>We don't have a visa card yet :)).</p>-->
+        </div>
+		{% include 'footer.html' %}
+        <script src="../modules/bootstrap/lib/js/jquery.min.js"></script>
+        <script src="../modules/bootstrap/lib/js/jquery.smooth-scroll.min.js"></script>
+        <script src="../modules/bootstrap/lib/js/jquery.goup.min.js"></script>
+        <script src="../modules/bootstrap/lib/js/bootstrap.min.js"></script>
+        <script src="../modules/bootstrap/lib/js/fastclick.min.js"></script>
+        <script src="../modules/bootstrap/js/main.min.js"></script>
+
+    </body>
+{% endblock %}

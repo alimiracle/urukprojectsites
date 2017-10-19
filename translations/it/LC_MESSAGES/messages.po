@@ -1,0 +1,947 @@
+# Italian translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-10-18 17:04+0300\n"
+"PO-Revision-Date: 2017-10-18 19:29+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: templates/contribute.html:5 templates/index.html:5
+msgid "Uruk Project"
+msgstr "Uruk Project"
+
+#: templates/contribute.html:32 templates/contribute.html:44
+msgid "Home"
+msgstr "Home"
+
+#: templates/contribute.html:33 templates/contribute.html:45
+#: templates/distro.html:37 templates/distro.html:52 templates/index.html:36
+#: templates/index.html:48
+msgid "About"
+msgstr "Informazioni sul progetto"
+
+#: templates/contribute.html:34 templates/contribute.html:46
+#: templates/index.html:37 templates/index.html:49 templates/index.html:87
+msgid "Projects"
+msgstr "Progetti"
+
+#: templates/contribute.html:35 templates/contribute.html:47
+#: templates/distro.html:42 templates/distro.html:57 templates/index.html:39
+#: templates/index.html:51
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/contribute.html:36 templates/contribute.html:48
+#: templates/distro.html:41 templates/distro.html:56 templates/index.html:38
+#: templates/index.html:50 templates/index.html:148
+msgid "Contact"
+msgstr "Contattateci"
+
+#: templates/contribute.html:56 templates/index.html:52
+msgid "How To Contribute"
+msgstr "Contribuite al progetto"
+
+#: templates/contribute.html:57
+msgid "If you want to contribute, read this first:"
+msgstr "Se volete contribuire, vi invitiamo a leggere senz'altro le dovute regole di buon decoro che vi chiediamo di osservare:"
+
+#: templates/contribute.html:59
+msgid "All of our contributions respect software freedom."
+msgstr "Tutte le nostre contribuzioni devono rispettare la libertà del software (così come definito dalla Free Software Foundation)."
+
+#: templates/contribute.html:60
+msgid ""
+"Non-free software may slip into our system, despite all of our efforts. "
+"We will be vigilant, and we will remove non-free software as soon as we "
+"find it"
+msgstr "Del codice proprietario potrebbe accidentalmente intrufolarsi nel nostro sistema, malgrado tutti i nostri sforzi per evitarlo. Noi saremo vigili, e rimuoveremo il software privativo (perché priva gli utenti della libertà) nel momento stesso in cui ne scopriamo l'esistenza."
+
+#: templates/contribute.html:61
+msgid "We demand there to be respect among community members."
+msgstr "Esigiamo che vi sia rispetto tra i membri della nostra comunità."
+
+#: templates/contribute.html:62
+msgid ""
+"Do not discriminate against people based on age, gender, sex, sexual "
+"orientation, disability, religion, ideology, ideas, social class, "
+"nationality, race, intelligence, or any analogous grounds."
+msgstr "Non accetteremo che nessuno discrimini un membro della comunità basandosi sull'età, sesso, genere, orientamento sessuale, handicap, religione, ideologia, credenze, classe sociale, nazionalità, intelligenza, o simile."
+
+#: templates/contribute.html:63
+msgid ""
+"Do not curse or use harsh language here. Social norms differ from place "
+"to place; harsh language can deter people from our community."
+msgstr "Non accetteremo l'uso di un linguaggio scurile o aggressivo. Le norme sociali variano da luogo a luogo; un linguaggio scabro può dissuadere ed allontanare le persone dalla nostra comunità."
+
+#: templates/contribute.html:64
+msgid "Do not insult others here. Disagree and challenge ideas instead."
+msgstr "Non insultate mai gli altri quando siete qui. Esprimete piuttosto in maniera decente il vostro dissentimento, e sfidate le idee degli altri mantenendo il dovuto decoro."
+
+#: templates/contribute.html:66
+msgid "If you have read and agreed on the above points"
+msgstr "Se avete letto il regolamento, e se vi sta bene "
+
+#: templates/contribute.html:66
+msgid ""
+", and would like to help us, then the next question is: what would you "
+"like to do?"
+msgstr ", e desiderate aiutarci, allora la domanda che sorge spontanea è: che cosa vi piacerebbe fare? "
+
+#: templates/contribute.html:67
+msgid ""
+"You can help the Uruk project in many ways;\n"
+"                   we need people to write documentation, such as books, "
+"reference guides and online info; we also need people to write software, "
+"do research, and many other tasks.\n"
+"                   Because of all the different tasks at hand, we are "
+"confident that your particular skills can help the Uruk Project; you "
+"don't have to be an experienced software\n"
+"                   developer to help us. What skills and experience do "
+"you have? Do you have experience writing large and complex technical "
+"documents? Do you speak several\n"
+"                   human languages? Do you have a unique skill? Are you a"
+" Unix hacker, or are you still learning? Obviously, the answers to these "
+"questions\n"
+"                   will determine the sorts of jobs that you may want to "
+"attempt to do. For example, if you've never written any documentation "
+"then you probably don't want\n"
+"                   to attempt to write a C++ STL tutorial or reference. "
+"If you have little mathematical expertise then you probably won't want to"
+" work on a statistical analysis\n"
+"                   package."
+msgstr "Potete aiutare il progetto in molti modi; abbiamo bisogno di gente che scriva la documentazione, come ad esempio libri, guide e guide online; abbiamo pure bisogno di programmatori che scrivano software libero, facciano ricerca e svolgano diversi altri compiti. Dal momento che i compiti di cui potremmo avvantaggiarci sono molteplici, siamo certi che le vostre particolari capacità possono aiutare il nostro progetto; non è necessario essere programmatori esperti per darci una mano. Qual'è il vostro talento e quale la vostra esperienza? Avete forse esperienza con la compilazione di complessi e voluminosi documenti tecnici? Siete competenti in diverse lingue? Avete un talento particolare? Siete esperti hacker o state ancora imparando? Ovviamente la risposta che darete a queste domande determinerà il tipo di lavoro che potreste voler svolgere. Per esempio, se non avete mai scritto una documentazione, molto probabilmente non vorrete scrivere una guida sul C++ STL... Se avete pochissima esperienza nella matematica, probabilmente non vorrete lavorare su un pacchetto di analisi statistica. "
+
+#: templates/contribute.html:77
+msgid "If you find any issue,"
+msgstr "Se vi imbattete in un qualsiasi problema o erro, "
+
+#: templates/contribute.html:77
+msgid "you can report it on the"
+msgstr "re potete comunicarcelo sul sito di "
+
+#: templates/contribute.html:77
+msgid "Uruk Issue Tracker"
+msgstr "segnalazione bug di Uruk"
+
+#: templates/contribute.html:82
+msgid "Project Members :"
+msgstr "Membri del progetto:"
+
+#: templates/contribute.html:87
+msgid "Ali Abdul Ghani"
+msgstr "Ali Abdul Ghani"
+
+#: templates/contribute.html:88
+msgid "alimiracle@riseup.net"
+msgstr "alimiracle@riseup.net"
+
+#: templates/contribute.html:91
+msgid "Hayder Majid"
+msgstr "Hayder Majid"
+
+#: templates/contribute.html:92
+msgid "hayder@riseup.net"
+msgstr "hayder@riseup.net"
+
+#: templates/contribute.html:95
+msgid "Azzen Abidi"
+msgstr "Azzen Abidi"
+
+#: templates/contribute.html:96
+msgid "azzen.abidi@gmail.com"
+msgstr "azzen.abidi@gmail.com"
+
+#: templates/contribute.html:99
+msgid "Rosa"
+msgstr "Rosa"
+
+#: templates/contribute.html:100
+msgid "rosa33@openmailbox.org"
+msgstr "rosa33@openmailbox.org"
+
+#: templates/contribute.html:103
+msgid "Zakaria Mekki Belbali"
+msgstr "Zakaria Mekki Belbali"
+
+#: templates/contribute.html:104
+msgid "zakibelbali12@gmail.com"
+msgstr "zakibelbali12@gmail.com"
+
+#: templates/contribute.html:107
+msgid "kzimmermann"
+msgstr "kzimmermann"
+
+#: templates/contribute.html:108
+msgid "kzimmermann@vivaldi.net"
+msgstr "kzimmermann@vivaldi.net"
+
+#: templates/contribute.html:111
+msgid "Ahmad Nourallah"
+msgstr "Ahmad Nourallah"
+
+#: templates/contribute.html:112
+msgid "ahmadnurallah@gmail.com"
+msgstr "ahmadnurallah@gmail.com"
+
+#: templates/contribute.html:120
+msgid "Contributors:"
+msgstr "Collaboratori:"
+
+#: templates/contribute.html:124
+msgid "Tristan aka MangyDwg"
+msgstr "Tristan aka MangyDwg"
+
+#: templates/contribute.html:125
+msgid ""
+"French translation of the websites and the Uruk GNU/Linux installer "
+"slideshows."
+msgstr "Traduzione francese delle pagine web e delle diapositive del programma di installazione di Uruk GNU/Linux. "
+
+#: templates/contribute.html:126
+msgid "pinmaritim@riseup.net"
+msgstr "pinmaritim@riseup.net"
+
+#: templates/contribute.html:129
+msgid "SuperTramp83 (as a trisquel forum nickname"
+msgstr "SuperTramp83"
+
+#: templates/contribute.html:130
+msgid ""
+"Italian translation of the websites, the Uruk GNU/Linux installer "
+"slideshows and the English texts corrections."
+msgstr "Traduzione italiana delle pagine web, delle diapositive del programma di installazione. Correzione dei testi in lingua inglese."
+
+#: templates/contribute.html:131
+msgid "greatgnu@riseup.net"
+msgstr "greatgnu@riseup.net"
+
+#: templates/contribute.html:134
+msgid "Fouad Mahmmed"
+msgstr "Fouad Mahmmed"
+
+#: templates/contribute.html:135
+msgid ""
+"Publishing the project and making complete previews and lessons about the"
+" Uruk GNU Linux distribution."
+msgstr "Pubblicazione del progetto e la produzione di anteprime e lezioni sul sistema operativo Uruk GNU Linux."
+
+#: templates/contribute.html:136
+msgid "2linuxorg@gmail.com"
+msgstr "2linuxorg@gmail.com"
+
+#: templates/contribute.html:139
+msgid "Al-Hassan Al-Maghribi"
+msgstr "Al-Hassan Al-Maghribi"
+
+#: templates/contribute.html:140 templates/contribute.html:150
+msgid ""
+"Publishing the project in Arab societies and through social media "
+"networks."
+msgstr "PuPubblicazione del progetto nelle società arabe ed attraverso le reti sociali."
+
+#: templates/contribute.html:141
+msgid "aboulharret@gmail.com"
+msgstr "aboulharret@gmail.com"
+
+#: templates/contribute.html:144
+msgid "Raddah Alzahrani"
+msgstr "Raddah Alzahrani"
+
+#: templates/contribute.html:145
+msgid "Donating and buying the hosting space and domain for the project."
+msgstr "Donazioni monetarie e la messa a disposizione del server e del dominio per il progetto. "
+
+#: templates/contribute.html:146
+msgid "aosus@aosus.org"
+msgstr "aosus@aosus.org"
+
+#: templates/contribute.html:149
+msgid "Mustafa M. Wahhudi"
+msgstr "Mustafa M. Wahhudi"
+
+#: templates/contribute.html:151
+msgid "mustafa.wahhudi@gmail.com"
+msgstr "mustafa.wahhudi@gmail.com"
+
+#: templates/contribute.html:154
+msgid "Michael Tiebesl"
+msgstr "Michael Tiebesl"
+
+#: templates/contribute.html:155
+msgid ""
+"Publishing the Masalla icon theme and adding it to the AUR repository of "
+"the Arch GNU/Linux distribution."
+msgstr "Pubblicazione del tema di icone Masalla e l'aggiunta dello stesso nel repositorio di pacchetti AUR della distribuzione di GNU/Linux Arch."
+
+#: templates/contribute.html:156
+msgid "meinalmere@gmail.com"
+msgstr "meinalmere@gmail.com"
+
+#: templates/contribute.html:159
+msgid "Dina Rushdi"
+msgstr "Dina Rushdi"
+
+#: templates/contribute.html:160
+msgid ""
+"Making the audio file and the phonogram to indicate the correct "
+"pronunciation of the name “Uruk”."
+msgstr "Creazione del file audio e del fonogramma che illustra la corretta pronuncia del nome “Uruk”."
+
+#: templates/contribute.html:161
+msgid "dinarushdi@yahoo.com"
+msgstr "dinarushdi@yahoo.com"
+
+#: templates/contribute.html:164
+msgid "David Pizarro"
+msgstr "David Pizarro"
+
+#: templates/contribute.html:165
+msgid ""
+"Spanish translation of the websites and the Uruk GNU/Linux installer "
+"slideshows."
+msgstr "Traduzione spagnolo delle pagine web e delle diapositive del programma di installazione di Uruk GNU/Linux."
+
+#: templates/contribute.html:166
+msgid "megver83@parabola.nu"
+msgstr "megver83@parabola.nu"
+
+#: templates/contribute.html:169
+msgid "Mappack"
+msgstr "Mappack"
+
+#: templates/contribute.html:170
+msgid "Dutch translation for the websites."
+msgstr "Traduzione dutch delle pagine web. "
+
+#: templates/contribute.html:171
+msgid "mappack@null.net"
+msgstr "mappack@null.net"
+
+#: templates/contribute.html:174
+msgid "Dr. Osama Ali Awad"
+msgstr "Dr. Osama Ali Awad"
+
+#: templates/contribute.html:175 templates/contribute.html:180
+#: templates/contribute.html:185
+msgid "contributed to make first free software and Uruk project event in Iraq."
+msgstr "Il progetto Uruk ha organizzato il primo evento di software libero in Iraq."
+
+#: templates/contribute.html:176
+msgid "‪usamawad@gmail.com"
+msgstr "‪usamawad@gmail.com"
+
+#: templates/contribute.html:179
+msgid "Hamed Mohammed Sahib"
+msgstr "Hamed Mohammed Sahib"
+
+#: templates/contribute.html:181
+msgid "‫‪hamadaaltai@gmail.com‬‬"
+msgstr "‫‪hamadaaltai@gmail.com‬‬"
+
+#: templates/contribute.html:184
+msgid "Jafar Saeed Abdullah"
+msgstr "Jafar Saeed Abdullah"
+
+#: templates/contribute.html:186
+msgid "‫‪gaaffer88@gmail.com‬‬"
+msgstr "‫‪gaaffer88@gmail.com‬‬"
+
+#: templates/distro.html:5 templates/index.html:92
+msgid "Uruk GNU/Linux"
+msgstr "Uruk GNU/Linux"
+
+#: templates/distro.html:38 templates/distro.html:53 templates/distro.html:199
+msgid "Uruk Docker"
+msgstr "Uruk Docker"
+
+#: templates/distro.html:39 templates/distro.html:54
+msgid "Download"
+msgstr "Download"
+
+#: templates/distro.html:43 templates/distro.html:58 templates/distro.html:218
+msgid "Get Involved"
+msgstr "Contribuire al progetto"
+
+#: templates/distro.html:44 templates/distro.html:59
+msgid "Bug reports"
+msgstr "Report di errore"
+
+#: templates/distro.html:70
+msgid "Welcome To Uruk GNU/Linux"
+msgstr "Benvenuti nella comunità di Uruk GNU/Linux !"
+
+#: templates/distro.html:72
+msgid "A lightweight, user-friendly and powerful GNU/Linux distribution"
+msgstr "Una distribuzione di GNU/Linux leggera, potente e facile da usare."
+
+#: templates/distro.html:75
+msgid ""
+"Uruk GNU/Linux is a distribution of the GNU operating system, with the "
+"Linux-libre kernel."
+msgstr "Uruk GNU/Linux è una distribuzione del sistema operativo GNU con l'aggiunta del kernel Linux-libre."
+
+#: templates/distro.html:76
+msgid ""
+"It comes ready for home and office use, and programs are easy to find and"
+" install."
+msgstr "Uruk è un sistema operativo pensato per l'utente medio e per l'ufficio; i programmi possono essere ricercati ed installati agevolmente e in maniera molto semplice."
+
+#: templates/distro.html:77
+msgid "Uruk GNU/Linux is currently based on the Trisquel GNU/Linux core."
+msgstr "Uruk è attualmente basato su Trisquel GNU/Linux."
+
+#: templates/distro.html:79
+msgid "The audio file below shows how to pronounce the word \"uruk\" correctly:"
+msgstr "Per dimostrare la corretta pronuncia della parola “uruk”, abbiamo incluso qui sotto un file audio:"
+
+#: templates/distro.html:82 templates/index.html:69
+msgid ""
+"If you are reading this, it is because your browser does not support the "
+"audio element."
+msgstr "Se stai leggendo questo, è perché il tuo browser non supporta l'elemento audio."
+
+#: templates/distro.html:102
+msgid "100 Free!"
+msgstr "Libero al 100 !"
+
+#: templates/distro.html:103
+msgid ""
+"The Uruk's developers are committed to software freedom.  We follow the "
+"Free System Distribution"
+msgstr "I programmatori di Uruk sono impegnati nello sviluppo e nella distribuzione del software libero. Noi seguiamo diligentemente le "
+
+#: templates/distro.html:103
+msgid "Guidelines"
+msgstr "le linee direttive per la distribuzione del software libero."
+
+#: templates/distro.html:103
+msgid "These guidelines extend the free software"
+msgstr "Tali direttive di condotta estendono la "
+
+#: templates/distro.html:103
+msgid "definition"
+msgstr "definizione "
+
+#: templates/distro.html:103
+msgid ""
+"to ensure that you can use, study, modify, and share every and each part "
+"of this project under free licenses."
+msgstr "del software libero per garantire agli utenti la libertà di usare, studiare, modificare e condividere ogni singola parte del nostro progetto, accompagnandolo con licenze libere."
+
+#: templates/distro.html:114
+msgid "Full Control"
+msgstr "Pieno controllo"
+
+#: templates/distro.html:115
+msgid ""
+"Uruk GNU/Linux's default desktop environment is 'Mate DE' with some "
+"Compiz tricks.  Uruk GNU/Linux offers simple, user-friendly graphical "
+"interfaces. Mate Control Center allows you to adjust aspects of your "
+"system according to your preference, and the Update Manager assures "
+"similar ease-of-use for software updates."
+msgstr "L'ambiente grafico predefinito di Uruk GNU/Linux è "Mate DE" integrato con Compiz. Uruk offre agli utenti interfacce grafiche semplici e facili da usare. Il centro di controllo di Mate (Mate Control Center) vi permette di personalizzare l'aspetto del vostro sistema operativo secondo la vostra preferenza, e il gestore degli aggiornamenti (Update Manager) applica la stessa filosofia di semplicità d'uso agli aggiornamenti del software."
+
+#: templates/distro.html:126
+msgid "Simple"
+msgstr "Semplice"
+
+#: templates/distro.html:127
+msgid ""
+"Uruk GNU/Linux by default ships with the most common software for popular"
+" computing tasks. Uruk GNU/Linux includes software for productivity, web "
+"browsing, email, audio, graphics, and more."
+msgstr "Di default Uruk GNU/Linux include una buona parte del software usato per i compiti più comuni. Uruk contiene software pensato per la produttività, la navigazione in internet, la messaggistica, la multimedialità, e molto altro."
+
+#: templates/distro.html:140
+msgid "Install RPM packages on your system:"
+msgstr "Installate i pacchetti RPM sul vostro sistema:"
+
+#: templates/distro.html:141
+msgid "There is no need to pinch your arm..."
+msgstr "Non v'è bisogno di darvi un pizzicotto sulla guancia..."
+
+#: templates/distro.html:142
+msgid "You are not dreaming..."
+msgstr "non state sognando..."
+
+#: templates/distro.html:143
+msgid "Just type in terminal:"
+msgstr "Digitate semplicemente nel terminale:"
+
+#: templates/distro.html:144
+msgid "u-rpmi"
+msgstr "u-rpmi"
+
+#: templates/distro.html:145
+msgid "followed by the file you want to install."
+msgstr "seguito dal nome del file che volete installare."
+
+#: templates/distro.html:146
+msgid "For example"
+msgstr "Ad esempio"
+
+#: templates/distro.html:147
+msgid "u-rpmi file.rpm"
+msgstr "u-rpmi file.rpm"
+
+#: templates/distro.html:158
+msgid "Install programs from source:"
+msgstr "Installate i programmi dal loro codice sorgente:"
+
+#: templates/distro.html:159
+msgid "with Uruk GNU/Linux building software from source is very easy."
+msgstr "con Uruk GNU/Linux la compilazione del software dal codice sorgente è una procedura molto semplice."
+
+#: templates/distro.html:160
+msgid "Just type in the terminal:"
+msgstr "È sufficiente digitare nel terminale:"
+
+#: templates/distro.html:161
+msgid "u-src"
+msgstr "u-src"
+
+#: templates/distro.html:162
+msgid "followed by the file you want to build"
+msgstr "seguito dal nome del file che volete compilare."
+
+#: templates/distro.html:163
+msgid "For example:"
+msgstr "Per esempio:"
+
+#: templates/distro.html:164
+msgid "u-src src.tar.gz"
+msgstr "u-src src.tar.gz"
+
+#: templates/distro.html:175
+msgid "Use any package managers commands"
+msgstr "Usate i comandi di uno qualunque dei vari gestori di pacchetti"
+
+#: templates/distro.html:176
+msgid ""
+"Uruk GNU/Linux comes with Package Managers Simulator.  This program can "
+"simulate popular package managers commands.  This means that you can "
+"install, uninstall, update, and remove packages with any package manager "
+"you wish."
+msgstr "Uruk GNU/Linux include un simulatore dei gestori di pacchetti (Package Managers Simulator). Questo programma può simulare i diversi comandi dei gestori di pacchetti più comuni. Ciò significa che potete installare, disinstallare, aggiornare e rimuovere i pacchetti adoperando uno qualunque dei tanti gestori a disposizione."
+
+#: templates/distro.html:200
+msgid "We have a docker image for Uruk GNU/Linux"
+msgstr "Mettiamo a disposizione degli utenti una immagine docker di Uruk GNU/Linux."
+
+#: templates/distro.html:202
+msgid "you can use it by installing docker, and then typing:"
+msgstr "Potete utilizzarla installando docker, e digitando quindi:"
+
+#: templates/distro.html:203
+msgid "docker run alimiracle/urukos /bin/bash"
+msgstr "docker run alimiracle/urukos /bin/bash"
+
+#: templates/distro.html:219
+msgid "You can help our project in many ways! Here are some:"
+msgstr "Ci sono molti modi per contribuire al nostro progetto. Alcuni di questi sono:"
+
+#: templates/distro.html:220
+msgid ""
+"Using Uruk GNU/Linux, and sharing it with your friends and family.\n"
+"Reporting issues and bugs that you find.\n"
+"Suggesting improvements.\n"
+"Helping in the forums.\n"
+"Writing and translating documentation and/or applications.\n"
+"Designing.\n"
+"If you have experience, you can develop software for Uruk project or Uruk"
+" GNU/Linux."
+msgstr "Semplicemente usando Uruk GNU/Linux e condividendolo con i vostri amici e familiari. Segnalandoci i problemi e i bug qualora vi imbattiate in uno di essi. Inviandoci suggerimenti atti a migliorare il sistema operativo. Aiutando gli utenti nel forum. Scrivendo e traducendo la documentazione e/o i programmi. Progettando. Se avete esperienza, potete sviluppare software per Uruk."
+
+#: templates/distro.html:227
+msgid ""
+"As you see, anyone would have the skills to help in some way, but if you "
+"lack the time you can still contribute by spreading Uruk GNU/Linux "
+"through social networks, publications and free software events."
+msgstr "Come potete vedere, la gamma è estesa, e tutti possono contribuire in qualche maniera, ma se vi manca il tempo materiale potete comunque aiutarci divulgando Uruk GNU/Linux attraverso i social network, pubblicazioni di riviste e durante gli eventi di software libero. "
+
+#: templates/distro.html:228
+msgid "If you want to join our development team"
+msgstr "Se volete far parte del team di sviluppo  "
+
+#: templates/distro.html:228
+msgid "read this"
+msgstr "leggete prima questo "
+
+#: templates/distro.html:228
+msgid "first"
+msgstr "first"
+
+#: templates/distro.html:242
+msgid "Contact Us"
+msgstr "Contattateci"
+
+#: templates/distro.html:244 templates/index.html:151
+msgid "Join"
+msgstr "Iscrivetevi alla nostra mailing list."
+
+#: templates/distro.html:244 templates/index.html:151
+msgid "our mailing list. To subscribe to the list, just send a mail to"
+msgstr "Per iscrivervi alla lista mandate una mail a "
+
+#: templates/distro.html:245
+msgid "uruk-request@lists.tuxfamily.org"
+msgstr "uruk-request@lists.tuxfamily.org"
+
+#: templates/distro.html:245 templates/index.html:152
+msgid "with the subject field:"
+msgstr "inserendo per soggetto:"
+
+#: templates/distro.html:245 templates/index.html:152
+msgid "subscribe"
+msgstr "subscribe"
+
+#: templates/distro.html:246 templates/index.html:153
+msgid ""
+"A mail will be sent back to confirm the request. To unsubscribe follow "
+"the same procedure, but with the subject field"
+msgstr "Vi verrà quindi inviata una mail di conferma. Per annullare l'iscrizione seguite lo stesso procedimento, ma con il soggetto "
+
+#: templates/distro.html:246 templates/index.html:153
+msgid "unsubscribe"
+msgstr "unsubscribe"
+
+#: templates/distro.html:246
+msgid ""
+"And to remain faithful to our GNUisance status, confirmation is needed in"
+" this\n"
+"To Post in the mailing list send your message to"
+msgstr "E siccome ci piace rompere le scatole ai nostri utenti fino in fondo, una conferma è di obbligo pure in questo caso. Per scrivere nella mailing list inviate il vostro messaggio a "
+
+#: templates/distro.html:248
+msgid "uruk@lists.tuxfamily.org"
+msgstr "uruk@lists.tuxfamily.org"
+
+#: templates/distro.html:250
+msgid "OR chat with us"
+msgstr "oppure chattate con noi"
+
+#: templates/distro.html:250 templates/index.html:157
+msgid "on"
+msgstr "su"
+
+#: templates/distro.html:250 templates/index.html:157
+msgid "irc.freenode.net"
+msgstr "irc.freenode.net"
+
+#: templates/distro.html:250 templates/index.html:157
+msgid "in our channel"
+msgstr "nel nostro canale"
+
+#: templates/distro.html:250 templates/index.html:157
+msgid "#uruk-project"
+msgstr "#uruk-project"
+
+#: templates/distro.html:252 templates/index.html:158
+msgid "OR"
+msgstr "oppure"
+
+#: templates/distro.html:252 templates/index.html:158
+msgid "contact the main project managers by mail:"
+msgstr "contattate i responsabili del progetto via mail"
+
+#: templates/distro.html:254 templates/index.html:160
+msgid "Ali Abdulghani(Ali Miracle)"
+msgstr "Ali Abdulghani(Ali Miracle)"
+
+#: templates/distro.html:255 templates/index.html:161
+msgid "Hayder Majid(Hayder Ctee)"
+msgstr "Hayder Majid(Hayder Ctee)"
+
+#: templates/distro.html:270
+msgid "Get Uruk GNU/Linux NOW !"
+msgstr "Scaricate subito Uruk GNU/Linux !"
+
+#: templates/distro.html:272
+msgid "You can download the Uruk GNU/Linux ISO right away:"
+msgstr "Potete scaricare l'immagine ISO di Uruk GNU/Linux immediatamente:"
+
+#: templates/distro.html:274
+msgid "32 bit,"
+msgstr "32 bit, "
+
+#: templates/distro.html:274
+msgid "compatible with all PCs from Pentium Pro onwards, including 64 bit ones."
+msgstr "compatibile con una vasta gamma di PC, dal Pentium Pro in poi, PC a 64 bit inclusi."
+
+#: templates/distro.html:274 templates/distro.html:280
+msgid "\"download md5 file\""
+msgstr ""scaricate il file md5""
+
+#: templates/distro.html:277 templates/distro.html:283
+msgid "Torrent"
+msgstr "Torrent"
+
+#: templates/distro.html:277
+msgid "uruk_1.0 i686"
+msgstr "uruk_1.0 i686"
+
+#: templates/distro.html:280
+msgid "64 bit,"
+msgstr "64 bit, "
+
+#: templates/distro.html:280
+msgid "when compatible, works faster and allows the use of more RAM."
+msgstr "se il vostro PC supporta questa architettura, il SO sarà più performante e agevolerà l'utilizzo di una maggiore quantità di memoria RAM."
+
+#: templates/distro.html:283
+msgid "uruk_1.0 64"
+msgstr "uruk_1.0 64"
+
+#: templates/footer.html:4
+msgid ""
+"&copy; 2017 Uruk GNU/Linux &bull; Website Code distributed under the "
+"AGPLv3+ &bull; Website media licensed under CC BY-SA 4."
+msgstr "© 2017 Uruk GNU/Linux • il codice della pagina web è distribuito con la licenza AGPLv3+ • I dati mediatici del sito sono rilasciati con la licenza CC BY-SA 4.0"
+
+#: templates/footer.html:8 templates/footer.html:13 templates/footer.html:18
+#: templates/footer.html:22
+msgid "Arabic"
+msgstr "Arabic"
+
+#: templates/footer.html:9 templates/footer.html:12 templates/footer.html:19
+#: templates/footer.html:21
+msgid "English"
+msgstr "English"
+
+#: templates/footer.html:10 templates/footer.html:14 templates/footer.html:23
+msgid "Spanish"
+msgstr "Spanish"
+
+#: templates/index.html:40
+msgid "Contribute"
+msgstr "Contribuire al progetto"
+
+#: templates/index.html:61
+msgid "About the Uruk Project"
+msgstr "Informazioni sul progetto Uruk."
+
+#: templates/index.html:62
+msgid "The Uruk project"
+msgstr "Il progetto Uruk"
+
+#: templates/index.html:62
+msgid ""
+"is a highly motivated community of people sharing a strong interest in "
+"free culture and free society.\n"
+"        We all help each other and share the common purpose of supporting"
+" and building free projects.\n"
+"        The Uruk project provides a list of goals our members follow in "
+"order to promote and strengthen free (as in freedom!) software and "
+"culture."
+msgstr "è formato da una comunità di persone altamente motivate che condividono un forte interesse nella cultura libera ed una società libera. Ognuno di noi vuole aiutare il prossimo, e noi tutti portiamo avanti uno scopo comune: sostenere e sviluppare progetti liberi. Il progetto Uruk fornisce una lista di obiettivi comuni il cui scopo è la promozione ed il rafforzamento del software libero e della cultura libera. "
+
+#: templates/index.html:65
+msgid "The Uruk name was chosen in honor of Uruk (Warka) city in Iraq"
+msgstr "Il nome Uruk è stato scelto in onore alla città irachena Uruk (Warka) "
+
+#: templates/index.html:65
+msgid "(Read More)"
+msgstr "(Ulteriori Informazioni)"
+
+#: templates/index.html:66
+msgid ""
+"To indicate how the word \"uruk\" should be pronounced, we included an "
+"audio file:"
+msgstr "Per dimostrare la corretta pronuncia della parola “uruk”, abbiamo incluso qui sotto un file audio: "
+
+#: templates/index.html:72
+msgid ""
+"The logo is a symbol of the Sumerian Palm with nine fronds, surrounded by"
+" Tigris and Euphrates rivers."
+msgstr "Il logo è uno simbolo della Palma Sumerica dotata di nove fronde e circondata dai mitici fiumi Tigri ed Eufrate."
+
+#: templates/index.html:73
+msgid "Our Project Goal is to:"
+msgstr "Gli scopi del nostro progetto:"
+
+#: templates/index.html:75
+msgid ""
+"Establish and maintain free projects to support the free software "
+"community."
+msgstr "Stabilire e mantenere progetti liberi per supportare la comunità del software libero."
+
+#: templates/index.html:76
+msgid "Develop a free GNU/Linux distribution to meet the users needs."
+msgstr "Sviluppare una distribuzione GNU/Linux libera e che incontri le esigenze degli utenti."
+
+#: templates/index.html:77
+msgid "Support the less common languages for the free software community."
+msgstr "Supportare le lingue meno comuni per la nostra comunità di software libero."
+
+#: templates/index.html:78
+msgid ""
+"Spread the free software philosophy in places where such philosophy is "
+"weak."
+msgstr "Spargere la filosofia del software libero lì dove tale filosofia è ancora debole."
+
+#: templates/index.html:79
+msgid ""
+"Focus on the accessibility to help all users, and in particular those "
+"with disabilities, operate their computers in the easiest way possible."
+msgstr "Marcata attenzione verso l'accessibilità al fine di aiutare gli utenti, ed in particolar modo gli utenti con disabilità fisica, ad utilizzare il loro computer nella maniera più agevole. "
+
+#: templates/index.html:88
+msgid "The following list contains the sub-projects of our team."
+msgstr "Qui sotto elenchiamo i sotto-progetti del nostro team."
+
+#: templates/index.html:93
+msgid ""
+"Uruk GNU/Linux is a fully free operating system for home users, small "
+"enterprises and educational centers based on Trisquel."
+msgstr "Uruk GNU/Linux è un sistema operativo completamente libero, basato su Trisquel e pensato per l'uso domestico, piccole aziende e centri educativi."
+
+#: templates/index.html:96
+msgid "Uruk Cleaner"
+msgstr Uruk Cleaner""
+
+#: templates/index.html:97
+msgid ""
+"Uruk Cleaner is a program that you can use to clean your system from "
+"cache files and logs."
+msgstr "Uruk Cleaner è un programma che potete utilizzare per pulire il vostro sistema dai file “cache” e dai log."
+
+#: templates/index.html:100
+msgid "UPMS"
+msgstr "UPMS"
+
+#: templates/index.html:101
+msgid ""
+"UPMS(Uruk Package Managers Simulator). This program can simulate several "
+"common package managers commands, which means you can install, uninstall,"
+" update and remove the packages using any package manager you prefer to "
+"get the work done with."
+msgstr "UPMS(Uruk Package Managers Simulator). Questo programma può simulare i comandi di diversi gestori di pacchetti, il che significa che potete installare, disinstallare, aggiornare e rimuovere i pacchetti usando uno qualunque dei vari gestori di pacchetti secondo il bisogno o la vostra particolare preferenza. "
+
+#: templates/index.html:104
+msgid "Uruk Ocr Server"
+msgstr "Uruk Ocr Server"
+
+#: templates/index.html:105
+msgid "A Simple, small, powerful OCR web server used to convert images to text."
+msgstr "Un piccolo, semplice e potente web server usato per convertire immagini in testo."
+
+#: templates/index.html:108
+msgid "Irc log recorder"
+msgstr "Registratore dei log di Irc"
+
+#: templates/index.html:109
+msgid ""
+"The Irc log recorder is an irc bot that logs the entire communication of "
+"an irc channel. It is equipped with a web server to enable users to "
+"access the logs from a web browser and/or telnet ."
+msgstr "Il registratore dei log di Irc è un bot di Irc che archivia l'intera comunicazione di un canale. É dotato di un web server che permette agli utenti di accedere ai log da un browser e/o telnet ."
+
+#: templates/index.html:112
+msgid "Masalla Icon Theme"
+msgstr "Tema di Icone Masalla"
+
+#: templates/index.html:113
+msgid "Icon theme for *NIX OS inspired by the modern flat design trend."
+msgstr "Tema di icone per i sistemi operativi *NIX ispirato dalla moderna tendenza di design piatto."
+
+#: templates/index.html:116
+msgid "Uruk Cloud IDE"
+msgstr "Uruk Cloud IDE"
+
+#: templates/index.html:117
+msgid ""
+"The UruCloudIDE Project is a free as in freedom cross platform integrated"
+" development environment running primarily, but not exclusively, on the "
+"free and open source cloud software. This piece of software is highly "
+"recommended for institutions, software development companies and "
+"developers. The project is still in beta."
+msgstr "Il progetto UrukCludIDE è un libero ambiente di programmazione integrato e inter-piattaforma eseguito principalmente, ma non esclusivamente, sul software cloud libero e open source «OpenStack». Questo software è altamente raccomandato per le istituzioni, le compagnie che sviluppano software e i programmatori. Il progetto è ancora in beta."
+
+#: templates/index.html:119
+msgid "Uruk Project website"
+msgstr "Il sito web del progetto Uruk"
+
+#: templates/index.html:120
+msgid ""
+"The source code for the Uruk project and the Uruk GNU/Linux website, "
+"based on the Peers website"
+msgstr "Il codice sorgente del progetto Uruk e del suo sito web, basato sul"
+
+#: templates/index.html:120
+msgid "source code"
+msgstr "codice sorgente di Peers."
+
+#: templates/index.html:123
+msgid "Rose Crypt"
+msgstr "Rose Crypt"
+
+#: templates/index.html:124
+msgid "Promote and facilitate encryption and decryption of files using AES"
+msgstr "Promuovere e facilitare la codificazione e la decodificazione dei file usando AES."
+
+#: templates/index.html:127
+msgid "Tabannusi"
+msgstr "Tabannusi"
+
+#: templates/index.html:128
+msgid ""
+"Tabannusi is a continuous build system, it watches for the git repository"
+" so if you make any new commit to it, the application will build such "
+"repository code and send you the build log in your email"
+msgstr "Tabannusi è un sistema di compilazione continuo, esso monitora il repositorio git e ad ogni nuovo apporto di codice, il programma compilerà in automatico questo codice e vi invierà un log di compilazione attraverso la mail. "
+
+#: templates/index.html:131
+msgid "quickpass"
+msgstr "quickpass"
+
+#: templates/index.html:132
+msgid ""
+"quickpass is a command-line password manager and random password "
+"generator using just the commonly available Unix utilities."
+msgstr "quickpass è un gestore e generatore di password con interfaccia a riga di comando che si avvale esclusivamente degli strumenti Unix comunemente disponibili. "
+
+#: templates/index.html:135
+msgid "Clara"
+msgstr "Clara"
+
+#: templates/index.html:136
+msgid "Server Backup and Notifications bot"
+msgstr "Backup del server e del server bot per le notifiche e il bot che gestisce le notifiche."
+
+#: templates/index.html:139
+msgid "UCC"
+msgstr "UCC"
+
+#: templates/index.html:140
+msgid ""
+"Uruk Control Center, Simple System Control Center for GNU/Linux System ( "
+"Only for XFCE4 DE for now )."
+msgstr "CCU (Centro di Controllo di Uruk) – un centro di controllo semplice per il sistema GNU/Linux Uruk (per ora disponibile soltanto per l'ambiente grafico XFCE4) "
+
+#: templates/index.html:149
+msgid "You can reach us via one of the following methods:"
+msgstr "Potete contattarci tramite una di queste vie:"
+
+#: templates/index.html:153
+msgid ""
+"And to remain faithful to our GNUisance status, confirmation is needed in"
+" this case too.\n"
+"To Post in the mailing list send your message to"
+msgstr "E siccome ci piace rompere le scatole ai nostri utenti fino in fondo, una conferma è di obbligo pure in questo caso. Per scrivere nella mailing list inviate il vostro messaggio a "
+
+#: templates/index.html:157
+msgid "Chat with us"
+msgstr "Chattate con noi"
+

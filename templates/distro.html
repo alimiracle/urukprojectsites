@@ -1,0 +1,298 @@
+{% block head %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <title>{{ gettext('Uruk GNU/Linux') }}</title>
+    <link rel="stylesheet" href="./static/bootstrap/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/bootstrap/css/maindist.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./static/images/urukp.png">    
+</head>
+{% endblock %}
+
+{% block content %}
+{% if current_lang == 'ar' %}
+    <body dir="rtl" bgcolor="#CBF1FF">
+{% else %}
+    <body dir="ltr" bgcolor="#CBF1FF">        
+{% endif %}
+    <div id="top"></div>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    {% if current_lang == 'ar' %}
+                        <a class="navbar-brand" href="/dist"><img src="../static/images/dist-a.png" alt="uruk gnu/linux"></a>        
+                    {% else %}
+                        <a class="navbar-brand" href="/dist"><img src="../static/images/dist-e.png" alt="uruk gnu/linux"></a>
+                    {% endif %}                        
+                    </div>
+                <div id="navbar" class="collapse navbar-collapse">	           
+                    <ul class="nav navbar-nav navbar-right">
+						<!-- <li><a href="#top">Home</a></li> -->
+                        <li><a href="#about">{{ gettext('About') }}</a></li>
+						<li><a href="#docker">{{ gettext('Uruk Docker') }}</a></li>
+                        <li><a href="#download">{{ gettext('Download') }}</a></li>
+                        <!--<li><a href="./doc/en/index.html">Documentation</a></li>-->
+                        <li><a href="#contact">{{ gettext('Contact') }}</a></li>
+                        <li><a target="_blank" href="https://blog.urukproject.org">{{ gettext('Blog') }}</a></li>
+                       <li><a href="#involved">{{ gettext('Get Involved') }}</a></li>
+                       <li><a href="https://urukproject.org//bt/login_page.php">{{ gettext('Bug reports') }}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <noscript class="navbar navbar-default container visible-xs">
+            <ul class="nav navbar-nav">
+				<!-- <li><a href="#top">Home</a></li> -->
+                <li><a href="#about">{{ gettext('About') }}</a></li>
+				<li><a href="#docker">{{ gettext('Uruk Docker') }}</a></li>
+                <li><a href="#download">{{ gettext('Download') }}</a></li>
+                <!--<li><a href="./doc/en/index.html">Documentation</a></li>-->
+                <li><a href="#contact">{{ gettext('Contact') }}</a></li>
+                <li><a target="_blank" href="https://blog.urukproject.org">{{ gettext('Blog') }}</a></li>
+                <li><a href="#involved">{{ gettext('Get Involved') }}</a></li>
+                <li><a href="https://urukproject.org//bt/login_page.php">{{ gettext('Bug reports') }}</a></li>
+            </ul>
+        </noscript>
+<section class="row text-center" id="about">
+        <div class="container">
+
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>{{ gettext('Welcome To Uruk GNU/Linux') }}</strong></h1>
+                    <h4>
+                        <strong>{{ gettext('A lightweight, user-friendly and powerful GNU/Linux distribution') }} 
+                        </strong>
+                    </h4>
+                    <p>{{ gettext('Uruk GNU/Linux is a distribution of the GNU operating system, with the Linux-libre kernel.') }} 
+                    <br> {{ gettext('It comes ready for home and office use, and programs are easy to find and install.') }} 
+                    <br> {{ gettext('Uruk GNU/Linux is currently based on the Trisquel GNU/Linux core.') }}</p>
+                    <br>
+                    <br>{{ gettext('The audio file below shows how to pronounce the word "uruk" correctly:') }} 
+                    <br>
+                    <br><audio controls><source src="../static/images/u-sound.ogg">
+                        {{ gettext('If you are reading this, it is because your browser does not support the audio element.') }}
+                       </audio>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+            <div class="container">
+			<div class="row">
+                <div>
+                    <img src="../static/images/desk.png" class="center-block" width="1000"/>
+					<br>
+                </div>
+            </div>
+
+            <div class="row text-center space-pad">
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+                        <h2>{{ gettext('100 Free!') }}</h2>
+                        <li>{{ gettext("The Uruk's developers are committed to software freedom.  We follow the Free System Distribution") }}  <a target="_blank" href="http://www.gnu.org/distros/free-system-distribution-guidelines.html" class='none-white'>{{ gettext('Guidelines') }}</a>. {{ gettext('These guidelines extend the free software') }} <a target="_blank" href="http://www.gnu.org/philosophy/free-sw.html" class='none-white'>{{ gettext('definition') }}</a> {{ gettext('to ensure that you can use, study, modify, and share every and each part of this project under free licenses.') }} </li>
+                       
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>{{ gettext('Full Control') }}</h2>
+                        <li>{{ gettext("Uruk GNU/Linux's default desktop environment is 'Mate DE' with some Compiz tricks.  Uruk GNU/Linux offers simple, user-friendly graphical interfaces. Mate Control Center allows you to adjust aspects of your system according to your preference, and the Update Manager assures similar ease-of-use for software updates.") }} </li>
+                        
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>{{ gettext('Simple') }}</h2>
+                        <li>{{ gettext('Uruk GNU/Linux by default ships with the most common software for popular computing tasks. Uruk GNU/Linux includes software for productivity, web browsing, email, audio, graphics, and more.') }} </li>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+           <div class="row text-center space-pad">
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>{{ gettext('Install RPM packages on your system:') }}</h2>
+                        <li>{{ gettext('There is no need to pinch your arm...') }}
+						<br>{{ gettext('You are not dreaming...') }}
+						<br>{{ gettext('Just type in terminal:') }}
+						<br><code>{{ gettext('u-rpmi') }}</code>  
+						<br>{{ gettext('followed by the file you want to install.') }}
+						{{ gettext('For example') }}
+						<br><code>{{ gettext('u-rpmi file.rpm') }}</code> </li>
+                       
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>{{ gettext('Install programs from source:') }}</h2>
+                        <li>{{ gettext('with Uruk GNU/Linux building software from source is very easy.') }}
+                                {{ gettext('Just type in the terminal:') }}
+						<br><code>{{ gettext('u-src') }}</code>   
+						<br>{{ gettext('followed by the file you want to build') }}
+						{{ gettext('For example:') }}
+						<br><code>{{ gettext('u-src src.tar.gz') }}</code> </li>
+                        
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="about-div">
+
+
+                        <h2>{{ gettext('Use any package managers commands') }}</h2>
+                        <li>{{ gettext('Uruk GNU/Linux comes with Package Managers Simulator.  This program can simulate popular package managers commands.  This means that you can install, uninstall, update, and remove packages with any package manager you wish.') }} </li>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+		
+        </div>
+
+
+    </section>
+
+<section class="row text-center" id="docker">
+        <div class="container">
+                <div class="col-md-12 ">
+                   <div class="col-md-12 ">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>{{ gettext('Uruk Docker') }}</strong></h1>
+                    <p>{{ gettext('We have a docker image for Uruk GNU/Linux') }}
+
+                     <br>{{ gettext('you can use it by installing docker, and then typing:') }}
+                     <br><code>{{ gettext('docker run alimiracle/urukos /bin/bash') }}</code>            
+                </div>
+                </div>
+        </div>
+
+</section>
+
+<section class="row text-center" id="involved">
+        <div class="container">
+                <div class="col-md-12">
+                   <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>{{ gettext('Get Involved') }}</strong></h1>
+                     <h4><p>{{ gettext('You can help our project in many ways! Here are some:') }}
+                     <br>{{ gettext('Using Uruk GNU/Linux, and sharing it with your friends and family.
+Reporting issues and bugs that you find.
+Suggesting improvements.
+Helping in the forums.
+Writing and translating documentation and/or applications.
+Designing.
+If you have experience, you can develop software for Uruk project or Uruk GNU/Linux.') }} </p>
+{{ gettext('As you see, anyone would have the skills to help in some way, but if you lack the time you can still contribute by spreading Uruk GNU/Linux through social networks, publications and free software events.') }}
+<br>{{ gettext('If you want to join our development team') }} <a target="_blank" href="https://urukproject.org/en/contribute.html" class="none-white">{{ gettext('read this') }}</a> {{ gettext('first') }}</p></h4>
+                </div>
+                </div>
+        </div>
+
+</section>
+<section class="row text-center" id="contact">
+        <div class="container">
+                <div class="col-md-12">
+                   <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>{{ gettext('Contact Us') }}</strong></h1>
+                    <ul class="contacts">
+                <h4><strong>{{ gettext('Join') }} </strong> {{ gettext('our mailing list. To subscribe to the list, just send a mail to') }} 
+<code><font color ="2c3e50">{{ gettext('uruk-request@lists.tuxfamily.org') }}</font></code>  {{ gettext('with the subject field:') }} <code><font color ="#2c3e50">{{ gettext('subscribe') }}</font></code>.
+{{ gettext('A mail will be sent back to confirm the request. To unsubscribe follow the same procedure, but with the subject field') }} <code><font color ="#2c3e50">{{ gettext('unsubscribe') }}</font></code>. {{ gettext('And to remain faithful to our GNUisance status, confirmation is needed in this
+To Post in the mailing list send your message to') }}
+<code><font color ="2c3e50">{{ gettext('uruk@lists.tuxfamily.org') }}</font></code>
+				<br>
+                <br><strong>{{ gettext('OR chat with us') }}</strong> {{ gettext('on') }} <code>{{ gettext('irc.freenode.net') }}</code> {{ gettext('in our channel') }} <code>{{ gettext('#uruk-project') }}</code>
+				<br>
+                <br><strong>{{ gettext('OR') }} </strong> {{ gettext('contact the main project managers by mail:') }}</h4>
+				<br>
+                     <li>{{ gettext('Ali Abdulghani(Ali Miracle)') }} <code><font color ="2c3e50">alimiracle@riseup.net</font></code></li>
+                     <li>{{ gettext('Hayder Majid(Hayder Ctee)') }} <code><font color ="2c3e50">hayder@riseup.net</font></code></li>       
+            </ul>
+                </div>
+                </div>
+        </div>
+
+</section>
+<section class="row text-center" id="download">
+        <div class="container">
+                <div class="col-md-8 col-md-offset-2">
+                   <div class="col-md-8 col-md-offset-2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1><strong>{{ gettext('Get Uruk GNU/Linux NOW !') }}</strong></h1>
+                    <h4>
+                        <strong>{{ gettext('You can download the Uruk GNU/Linux ISO right away:') }}</strong>
+                    </h4>
+                    <br><strong>{{ gettext('32 bit,') }}</strong> {{ gettext('compatible with all PCs from Pentium Pro onwards, including 64 bit ones.') }}<a target="_blank" href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-i686.md5/download' class='none-white'>  {{ gettext('"download md5 file"') }}</a>
+					<br>
+                    <br>
+                    <a target="_blank" href='http://linuxtracker.org/download.php?id=52a0312d6f40e9a0d2553c55e92195323187623e&f=uruk_1.0-i686.iso.torrent&key=6c2d037a' ><button>{{ gettext('Torrent') }}</button></a> <a href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-i686.iso/download'><button>{{ gettext('uruk_1.0 i686') }}</button></a> 
+                    <br>
+					<br>
+                    <br><strong>{{ gettext('64 bit,') }}</strong> {{ gettext('when compatible, works faster and allows the use of more RAM.') }}<a target="_blank" href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-64.md5/download' class='none-white'>  {{ gettext('"download md5 file"') }}</a>
+					<br>
+                    <br>
+                    <a target="_blank" href='http://linuxtracker.org/download.php?id=4721c98b0f76daf39d8d5b87188fb28aa1ebfb54&f=uruk_1.0-x64.iso.torrent&key=6c2d037a'><button>{{ gettext('Torrent') }}</button></a> <a href='https://sourceforge.net/projects/urukos/files/1.0/uruk_1.0-64.iso/download'><button>{{ gettext('uruk_1.0 64') }}</button></a>
+                </div>
+                </div>
+        </div>
+
+</section>
+        {% include 'footer.html' %}
+        <script src="./static/bootstrap/lib/js/jquery.min.js"></script>
+        <script src="./static/bootstrap/lib/js/jquery.smooth-scroll.min.js"></script>
+        <script src="./static/bootstrap/lib/js/jquery.goup.min.js"></script>
+        <script src="./static/bootstrap/lib/js/bootstrap.min.js"></script>
+        <script src="./static/bootstrap/lib/js/fastclick.min.js"></script>
+        <script src="./static/bootstrap/js/main.min.js"></script>
+
+</body>
+{% endblock %}

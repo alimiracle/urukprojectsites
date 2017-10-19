@@ -1,0 +1,176 @@
+{% block head %}
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+        <title>{{ gettext('Uruk Project') }}</title>
+        <link rel="stylesheet" href="../static/bootstrap/lib/css/bootstrap.min.css">        
+        <link rel="stylesheet" href="../static/bootstrap/css/main.css">        
+        <link rel="shortcut icon" type="image/x-icon" href="../static/images/urukp.png">
+</head>
+{% endblock %}
+
+{% block content %}
+{% if current_lang == 'ar' %}
+    <body dir="rtl" bgcolor="#CBF1FF">
+{% else %}
+    <body dir="ltr" bgcolor="#CBF1FF">    
+{% endif %}
+    <div id="top"></div>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    {% if current_lang == 'ar' %}
+                        <a class="navbar-brand" href="/"><img src="../static/images/logo-a.png" alt="uruk project"></a>
+                    {% else %}
+                        <a class="navbar-brand" href="/"><img src="../static/images/logo-e.png" alt="uruk project"></a>                
+                    {% endif %}
+                    </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">{{ gettext('About') }}</a></li>
+                        <li><a href="#projects">{{ gettext('Projects') }}</a></li>
+                        <li><a href="#contact">{{ gettext('Contact') }}</a></li>
+                        <li><a target="_blank" href="https://blog.urukproject.org">{{ gettext('Blog') }}</a></li>
+                        <li><a href="/contribute">{{ gettext('Contribute') }}</a></li>
+                        <!--<li><a href="#donate">Donate</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <noscript class="navbar navbar-default container visible-xs">
+            <ul class="nav navbar-nav">
+                <li><a href="#about">{{ gettext('About') }}</a></li>
+                <li><a href="#projects">{{ gettext('Projects') }}</a></li>
+                <li><a href="#contact">{{ gettext('Contact') }}</a></li>
+                <li><a target="_blank" href="https://blog.urukproject.org">{{ gettext('Blog') }}</a></li>
+                <li><a href="/contribute">{{ gettext('How To Contribute') }}</a></li>
+                <!--<li><a href="#Donate">Donate</a></li>-->
+            </ul>
+        </noscript>
+        <div class="container">
+            <div class="row">
+                <img src="../static/images/top.svg" class="center-block website-banner" />
+            </div>
+            <hr>
+            <h2><a id="about" name="about" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>{{ gettext('About the Uruk Project') }}</h2>
+            <p><strong>{{ gettext('The Uruk project') }}</strong> {{ gettext('is a highly motivated community of people sharing a strong interest in free culture and free society.
+        We all help each other and share the common purpose of supporting and building free projects.
+        The Uruk project provides a list of goals our members follow in order to promote and strengthen free (as in freedom!) software and culture.') }}      
+                <br>{{ gettext('The Uruk name was chosen in honor of Uruk (Warka) city in Iraq') }} <a target="_blank" href="https://en.wikipedia.org/wiki/Uruk">{{ gettext('(Read More)') }}</a>
+                <br>{{ gettext('To indicate how the word "uruk" should be pronounced, we included an audio file:') }}
+                <br>
+                <br><audio controls><source src="../static/images/u-sound.ogg">
+                        {{ gettext('If you are reading this, it is because your browser does not support the audio element.') }}
+                    </audio>
+                <br>
+                <br>{{ gettext('The logo is a symbol of the Sumerian Palm with nine fronds, surrounded by Tigris and Euphrates rivers.') }}</br>
+                <br><strong>{{ gettext('Our Project Goal is to:') }}</strong></br>
+            <ul>
+                <li>{{ gettext('Establish and maintain free projects to support the free software community.') }}</li>
+                <li>{{ gettext('Develop a free GNU/Linux distribution to meet the users needs.') }}</li>
+                <li>{{ gettext('Support the less common languages for the free software community.') }}</li>
+                <li>{{ gettext('Spread the free software philosophy in places where such philosophy is weak.') }}</li>
+                <li>{{ gettext('Focus on the accessibility to help all users, and in particular those with disabilities, operate their computers in the easiest way possible.') }}</li>
+            </ul>
+        
+                </p>
+                <br>
+            <br>
+            <br>
+            <hr>
+            <h2><a id="projects" name="projects" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>{{ gettext('Projects') }}</h2>
+            <p><strong>{{ gettext('The following list contains the sub-projects of our team.') }}</strong></p>
+            <table class="table">
+                <tbody>
+                     <tr>
+                        <td><a target="_blank" href="http://urukproject.org/dist">{{ gettext('Uruk GNU/Linux') }}</a></td>
+                        <td>{{ gettext('Uruk GNU/Linux is a fully free operating system for home users, small enterprises and educational centers based on Trisquel.') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/alimiracle/uruk-cleaner">{{ gettext('Uruk Cleaner') }}</a></td>
+                        <td>{{ gettext('Uruk Cleaner is a program that you can use to clean your system from cache files and logs.') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/alimiracle/UPMS">{{ gettext('UPMS') }}</a></td>
+                        <td>{{ gettext('UPMS(Uruk Package Managers Simulator). This program can simulate several common package managers commands, which means you can install, uninstall, update and remove the packages using any package manager you prefer to get the work done with.') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/alimiracle/Uruk-Ocr-Server">{{ gettext('Uruk Ocr Server') }}</a></td>
+                        <td>{{ gettext('A Simple, small, powerful OCR web server used to convert images to text.') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/alimiracle/irc-log-recorder">{{ gettext('Irc log recorder') }}</a></td>
+                        <td>{{ gettext('The Irc log recorder is an irc bot that logs the entire communication of an irc channel. It is equipped with a web server to enable users to access the logs from a web browser and/or telnet .') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://github.com/hayderctee/masalla-icon-theme">{{ gettext('Masalla Icon Theme') }}</a></td>
+                        <td>{{ gettext('Icon theme for *NIX OS inspired by the modern flat design trend.') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://github.com/azzenovic/UrukCloudIDE">{{ gettext('Uruk Cloud IDE') }}</a></td>
+                        <td>{{ gettext('The UruCloudIDE Project is a free as in freedom cross platform integrated development environment running primarily, but not exclusively, on the free and open source cloud software. This piece of software is highly recommended for institutions, software development companies and developers. The project is still in beta.') }}</td>
+                    </tr>
+                        <td><a target="_blank" href="https://notabug.org/hayderctee/urukprojectsites">{{ gettext('Uruk Project website') }}</a></td>
+                        <td>{{ gettext('The source code for the Uruk project and the Uruk GNU/Linux website, based on the Peers website') }}<a target="_blank" href='https://notabug.org/vaeringjar/Peers'> {{ gettext('source code') }} </a> </td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://sourceforge.net/projects/rosecrypt">{{ gettext('Rose Crypt') }}</a></td>
+                        <td>{{ gettext('Promote and facilitate encryption and decryption of files using AES') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/alimiracle/tabannusi">{{ gettext('Tabannusi') }}</a></td>
+                        <td>{{ gettext('Tabannusi is a continuous build system, it watches for the git repository so if you make any new commit to it, the application will build such repository code and send you the build log in your email') }} </td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/kzimmermann/quickpass">{{ gettext('quickpass') }}</a></td>
+                        <td>{{ gettext('quickpass is a command-line password manager and random password generator using just the commonly available Unix utilities.') }}  </td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/alimiracle/clara">{{ gettext('Clara') }}</a></td>
+                        <td>{{ gettext('Server Backup and Notifications bot') }}</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://notabug.org/hayderctee/ucc">{{ gettext('UCC') }}</a></td>
+                        <td>{{ gettext('Uruk Control Center, Simple System Control Center for GNU/Linux System ( Only for XFCE4 DE for now ).') }}  </td>
+                    </tr>        
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <br>
+            <hr />
+            <h2><a id="contact" name="contact" style="margin-top:-50px; padding-bottom:50px; display:block;"></a>{{ gettext('Contact') }}</h2>
+            <p>{{ gettext('You can reach us via one of the following methods:') }}</p>
+            <ul class="contacts">
+                <li><h4><strong>{{ gettext('Join') }} </strong> {{ gettext('our mailing list. To subscribe to the list, just send a mail to') }}
+<code><font color ="2c3e50">uruk-request@lists.tuxfamily.org</font></code>  {{ gettext('with the subject field:') }} <code><font color ="#2c3e50">{{ gettext('subscribe') }}</font></code>.
+{{ gettext('A mail will be sent back to confirm the request. To unsubscribe follow the same procedure, but with the subject field') }} <code><font color ="#2c3e50">{{ gettext('unsubscribe') }}</font></code>. {{ gettext('And to remain faithful to our GNUisance status, confirmation is needed in this case too.
+To Post in the mailing list send your message to') }}
+<code><font color ="2c3e50">uruk@lists.tuxfamily.org</font></code>
+                <br></li>
+                <li><strong>{{ gettext('Chat with us') }}</strong> {{ gettext('on') }} <code>{{ gettext('irc.freenode.net') }}</code> {{ gettext('in our channel') }} <code>{{ gettext('#uruk-project') }}</code></li>
+                <li><strong>{{ gettext('OR') }} </strong> {{ gettext('contact the main project managers by mail:') }}
+                <ul>
+                    <li>{{ gettext('Ali Abdulghani(Ali Miracle)') }} <code><font color ="2c3e50">alimiracle@riseup.net</font></code></li>
+                    <li>{{ gettext('Hayder Majid(Hayder Ctee)') }} <code><font color ="2c3e50">hayder@riseup.net</font></code></li>
+                </ul></li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <hr>
+            {% include 'footer.html' %}            
+        <script src="../static/bootstrap/lib/js/jquery.min.js"></script>
+        <script src="../static/bootstrap/lib/js/jquery.smooth-scroll.min.js"></script>
+        <script src="../static/bootstrap/lib/js/jquery.goup.min.js"></script>
+        <script src="../static/bootstrap/lib/js/bootstrap.min.js"></script>
+        <script src="../static/bootstrap/lib/js/fastclick.min.js"></script>
+        <script src="../static/bootstrap/js/main.min.js"></script>
+</body>
+{% endblock %}
